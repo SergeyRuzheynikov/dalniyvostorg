@@ -1,0 +1,2175 @@
+@import "bourbon"
+/*@import "bootstrap" */
+
+@import "vars.sass"
+//@import "fonts.sass"
+
+//Load Libs SASS
+@import "app/libs/animate/animate.sass"
+
+*::-webkit-input-placeholder
+	color: #666
+	opacity: 1
+
+*:-moz-placeholder
+	color: #666
+	opacity: 1
+
+*::-moz-placeholder
+	color: #666
+	opacity: 1
+
+*:-ms-input-placeholder
+	color: #666
+	opacity: 1
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: #666
+body input:required:valid,
+body textarea:required:valid
+	color: #666
+
+html
+	background: #3f474f
+.fixed.xx
+	background: rgba(255,255,255,.99)	
+	transition: all 0.8s 
+	color: #000
+	height: 80px
+	min-height: 80px
+	-webkit-box-shadow: 0px 10px 19px 0px rgba(50, 50, 50, 0.75)
+	-moz-box-shadow:    0px 10px 19px 0px rgba(50, 50, 50, 0.75)
+	box-shadow:         0px 10px 19px 0px rgba(50, 50, 50, 0.75)
+	.navbar-brand
+		transition: all .5s
+		position: absolute
+
+		width: auto
+		//height: 150px
+		min-height: 100%
+		left: 45.5%
+		text-align: center
+		margin: 0 auto
+
+
+
+
+
+		left: 0 
+		width: 100%
+
+
+
+
+		img
+			transition: opacity .5s
+			//width: 100%
+			height: 100%
+			margin: 0 auto
+	
+		.l1
+			position: absolute
+			opacity: 0
+			top: 0
+			left: 0
+
+
+
+
+			position: relative
+			display: none
+		.l2	
+			position: absolute
+			top: 0
+			left: 0
+			opacity: 1	
+
+
+
+			position: relative
+			display: block
+	ul
+		margin-top: 20px
+		transition: all 0.8s ease 0s
+	.navbar-nav>li>a
+		color: #000
+
+	&:hover  .navbar-nav>li>a
+		color: #000	
+		
+		&:hover
+			color: #961100
+
+
+body
+	color: #555
+	overflow-x: auto
+	overflow-y: auto
+	position: relative
+	margin: 0 auto
+	max-width: 1920px
+	//min-width: 1280px
+	width: 100%
+	height: auto
+	//padding-bottom: 50px
+	//width: 100%
+	background: url('../img/bg-brick1.jpg') repeat-y
+	background-size: 100%
+
+	.hidden
+		display: none
+
+
+	.clform2
+		position: fixed
+		top: 50%
+		left: 50%
+
+
+		font-family: 'Franklin Gothic Demi Cond'
+		letter-spacing: 7px
+		font-style: normal	
+		min-width: 320px
+		width: 700px
+		display: block
+		margin-top: -200px
+		margin-left: -300px
+		
+		border: 4px solid #CD0802
+		border-radius: 5px	
+		background-color: #eee
+		background: rgba(255,255,255,.8)
+		color: #414141
+
+		h4
+			margin-top: 20px
+			text-transform: uppercase
+			text-align: center
+			width: 100%
+			
+			font-size: 30px
+	
+
+		.buyform2
+			position: relative
+			
+			width: 320px
+			height: 300px
+
+		
+			display: block
+			
+			width: 90%
+			margin:  auto
+			margin-top: 40px
+			box-sizing: border-box
+
+			ul
+
+				list-style-type: none
+				width: 100%
+				li
+					margin-top: 10px
+					width: 100%
+					span
+						box-sizing: border-box
+						padding: 0px 10px
+
+						float: left
+						width: 30%	
+						height: 50px
+						font-size: 20px
+
+
+					input
+						padding-left: 10px
+						color: #414141
+						font-size: 35px
+						float:right
+						width: 70%
+						height: 50px
+						right: 0px
+						border: 3px solid #CD0802
+						background: rgba(200,200,200,0.9)
+						border-radius: 5px	
+			.sender
+				font-family: 'Myriad Pro'
+				font-weight: bold
+				letter-spacing: 5px
+				font-style: normal				
+				width: 50%
+				height: 60px
+
+				display: block
+				position:relative
+				border-radius: 10px
+				border: 1px solid black
+				background-color: #dd2121
+				
+				
+				color: #fff
+				font-size: 25px
+				text-transform: uppercase
+				margin-top: 20px
+				margin: 20px auto
+				cursor: pointer
+				&:hover, &:focus
+
+				&:active
+					background-color: #615A56
+
+
+
+
+	.navbar-default .navbar-nav>li>a
+		color: #fff
+		&:hover
+			color: #961100
+
+	.navbar
+		transition: all .5s
+		min-height: 150px
+		height: 150px
+		//height: auto
+		position: fixed
+		top: 0 
+		left: 0%
+		margin-left: 0%
+		width: 100%
+		background: rgba(0,0,0,0)
+		z-index: 999
+		border: none
+		&:hover
+			background: white
+			transition: all 0.8s ease 0s
+		&:hover  .navbar-nav>li>a
+			color: #000	
+			
+			&:hover
+				color: #961100
+				
+
+		&:hover 
+			.navbar-brand
+				.l1
+					opacity: 0
+
+
+					display: none
+				.l2
+					opacity: 1	
+					display: block		
+
+		.navbar-brand
+			
+			position: absolute
+			transition: opacity .5s
+			width: auto
+			//height: 150px
+			min-height: 100%
+			left: 41.5%
+			text-align: center
+			margin: 0 auto
+
+
+
+
+			width: 100%
+			left: 0
+			img
+				//width: 100%
+				height: 100%
+
+
+				margin: 0 auto
+		
+			.l1
+				position: absolute
+				top: 0
+				left: 0
+
+				position: relative
+			.l2	
+				position: absolute
+				top: 0
+				left: 0
+				opacity: 0
+				
+
+				position: relative
+				display: none
+		
+		.navbar-toggle 
+			z-index: 999999		
+
+		.navbar-left
+			margin-left: 10%	
+		.navbar-right
+			margin-right: 14%	
+		ul
+			//float: left
+			margin-top: 0px
+			color: #fff
+			position: relative
+			margin-left: 10%
+			margin: 50px auto
+			font-family: RobotoMedium, sans-serif
+			font-size: 16px
+			font-weight: bold
+			display: block
+			//background: #fff
+
+			li
+
+				text-transform: uppercase
+				line-height: 50px
+				position: relative
+				display: block
+				vertical-align: top
+				padding-left: 3px
+				color: #fff
+				// &:before
+				// 	content: ''
+				// 	position: absolute
+				// 	top: 50%
+				// 	left: 0
+				// 	width: 1px
+				// 	height: 16px
+				// 	margin-top: -8px
+				// 	background: #8F8F8F
+				a
+					color: #fff
+					text-decoration: none
+					&:hover
+						color: #961100
+
+
+// .navbar-default .navbar-nav>li>a
+// 	color: #fff
+// 	&:hover
+// 		color: #961100
+
+// .navbar
+// 	z-index: 10
+
+// 	position: fixed
+// 	left: 0
+// 	top: 0
+
+// 	li
+// 		a
+// 			text-transform: uppercase
+// 			font-family: "Roboto Medium"
+// 			font-size: 16px
+			
+
+
+
+
+// .offset-left
+// 	margin-left: 5%
+
+// .offset-right
+// 	margin-right: 10%
+	
+// 	&:after
+// 		content: ""
+// 		clear: both
+
+// .navbar-default
+// 	background: rgba(255,255,255,0)
+// 	border: none
+// 	.navbar-collapse
+// 		border: none
+
+// li>a:hover
+// 	background: rgba(255,255,255,0.9)
+
+
+
+// .navbar-brand
+// 	position: absolute
+// 	left: 45%
+// 	width: auto
+// 	height: auto
+// 	img
+// 		width: auto
+// 		height: auto
+
+// .logo
+	
+
+
+// .navbar-left, .navbar-right
+	
+// 	margin-top: 20px
+// 	//margin-left: 20%		
+// li 
+// 	padding: 0 10px
+// 	.active
+// 		a
+// 			background: #f00
+
+
+
+.oc
+	color: #fff
+	display: block
+	position: relative
+	margin: 0 auto
+	max-width: 1760px
+	min-width: 1280px
+	width: 100%
+	border-left: 1px solid green
+	border-right: 1px solid green
+	
+	&:after
+		content: ""
+		clear: both	
+
+
+.container
+	
+	padding: 0
+
+	//width: 1280px
+.video
+	position: absolute
+	width: auto
+	min-width: 100%
+	height: auto
+	min-height: 100%
+	left: -0%
+	margin-left: 0
+	top: 0%
+	
+	
+
+
+	z-index: 2
+// *
+// 	border: 1px solid red
+//Custom Styles Here
+header
+	overflow-x: hidden
+	overflow-y: hidden
+	position: relative
+	background: url('../img/bg-main.jpg') no-repeat
+	background-size: cover
+	width: 100%
+	height: 1000px
+	//height: 965px
+	padding-bottom: 40px
+	&:after
+		content: ""
+		clear: both	
+
+
+		
+
+
+
+
+
+
+
+
+
+	.main
+		margin-top: 110px
+		//border: 1px solid green
+		position: relative
+		z-index: 10
+		height: 100vh
+
+
+
+		.dv
+			position: relative
+			padding-left: 0px
+			
+
+			//height: 480px
+
+			&:after
+				clear: both
+			.title-block
+				color: #fff
+				text-transform: uppercase
+				margin-top: 90px
+				text-align: center
+				font-family: NanumGothic
+				font-family: lobster
+				h1
+					font-size: 40px
+				h2	
+					margin-top: 100px
+					margin-top: 50px
+					font-size: 203px
+					font-size: 80px
+				h3
+					margin-top: 80px						
+					font-size: 50px
+
+				h4
+					width: 50%
+					margin-top: 80px						
+					margin-left: auto
+					margin-right: auto
+					font-size: 48px	
+				hr
+					width: 30%
+					margin: 30px auto	
+
+
+
+			.lt
+				height: 69%
+				width: 30%
+				position: absolute
+				border-left: 10px solid black
+				border-top: 10px solid black
+				.lb
+					bottom: 0px
+					height: 100%
+					width: 130%
+					position: absolute
+					
+					border-bottom: 10px solid black
+
+			.rt
+				right: 0
+				height: 69%
+				width: 30%
+				position: absolute
+				border-right: 10px solid black
+				border-top: 10px solid black
+				.rb
+					right: 0
+					bottom: 0
+					height: 100%
+					width: 130%
+					position: absolute
+					
+					border-bottom: 10px solid black
+		
+
+		.par
+			margin-top: 10px
+			height: 150px
+			// border: 1px solid red
+			img
+				width: auto
+				height: 85px
+				display: block
+				margin: 0 auto
+			span
+				margin: 30px auto
+				display: block
+				text-align: center
+				color: #fff
+				font-size: 25px
+				font-family:  NotoSerif
+
+// .menu-production1
+// 	margin-top: 90px
+// 	margin-left: auto
+// 	margin-right: auto
+// 	width: 100%
+// 	padding-bottom: 50px
+// 	//max-width: 1760px
+// 	//min-width: 1380px
+// 	//height: 1701px
+// 	background: url('../img/bg-menu-production2.png') no-repeat
+// 	background-size: 100% 100%
+// 	background-position: 50% 50%
+// 	&:after, &:before
+// 		content: ""
+// 		clear: both	
+
+// 	.row
+		
+// 		.title-block
+// 			text-align: center
+// 			color: #fff
+// 			padding-bottom: 50px
+// 			h1
+// 				text-transform: uppercase
+// 				font-family: 'Lobster', cursive
+// 				font-size: 72px
+			
+// 			h2
+// 				margin-top: 0
+
+// 				border-bottom: 1px #fff solid
+// 				border-top: 1px #fff solid
+// 				text-transform: uppercase
+// 				font-family: 'NanumGothic'
+// 				font-size: 36px			
+		
+// 		.call-btn, .about-btn
+// 			float: left
+// 			border: #fff 1px solid
+// 			border-radius: 10px
+// 			display: block
+// 			margin: 0px 5%
+// 			width: 40%
+// 			height: 50px
+// 			text-align: center
+// 			padding-top: 4%
+// 			text-decoration: none
+// 			color: #fff
+// 			background: rgba(0,0,0,0.5)
+// 			&:hover
+// 				background: rgba(150, 17, 0, 0.5)
+ 		
+// 		.viber-btn
+// 			//text-align: center
+// 			float: left
+// 			padding: 0
+// 			display: block
+// 			width: 50px
+// 			height: 50px solid red
+// 			position: relative
+// 			img
+// 				width: 50px
+// 				max-width: 100%
+
+
+ 		
+// 		.whatsapp-btn
+// 			//text-align: center
+// 			float: left
+// 			padding: 0
+// 			display: block
+// 			width: 50px
+// 			height: 50px solid red
+// 			position: relative
+// 			img
+// 				width: 50px
+// 				max-width: 100%				
+
+		
+// 		.product
+// 			width: 100%
+// 			color: #fff
+// 			//padding-left: 100px
+// 			h4
+// 				font-size: 30px
+// 				text-align: center
+// 				text-transform: uppercase
+// 			.list
+// 				float: left
+// 				width: 40%
+// 				font-size: 24px
+// 				font-family: Roboto Regular
+// 				ul
+// 					list-style-type: none
+// 					li
+// 						line-height: 1.5
+				
+// 			.card
+// 				margin-top: 20%
+// 				text-align: center
+// 				float: left
+// 				width: 60%
+// 				border: 1px solid #fff
+// 				padding: 10px 5px
+// 				font-size: 18px
+// 				font-family: Roboto Light
+// 				ul
+// 					list-style-type: none
+// 					li
+// 						line-height: 1.5
+
+
+// 		.lm
+			
+			
+			
+
+// 		.rm
+				
+// 			margin-top: 40%
+
+
+
+
+.section-about
+	//background: rgba(255,255,255,0.8)
+	p
+		margin-top: 50px
+		background: rgba(255,255,255,0.8)
+		font-size: 22px
+		line-height: 1.2
+		font-family: arial
+		letter-spacing: 1px
+		text-align: justify
+		padding: 50px 10px
+		color: #333
+		a
+			text-decoration: none
+			color: 	darkblue
+
+			&:hover
+				text-decoration: none
+				color: #C90100
+	video
+		width: 100%
+
+.full-cycle
+	//background: rgba(255,255,255,0.8)
+	h1
+		text-align: left
+		padding-left: 30px
+		color: #C90100
+		font-family: Lobster
+	p
+		background: rgba(255,255,255,0.8)
+		font-size: 18px
+		line-height: 1.2
+		font-family: arial
+		letter-spacing: 1px
+		text-align: justify
+		padding: 50px 10px		
+		color: #333
+.conserv-department
+	//background: rgba(255,255,255,0.8)
+	h1
+		text-align: right
+		padding-right: 30px
+		color: #C90100
+		font-family: Lobster
+	p
+		background: rgba(255,255,255,0.8)
+		font-size: 18px
+		line-height: 1.2
+		font-family: arial
+		letter-spacing: 1px
+		text-align: justify
+		padding: 50px 10px
+		color: #333
+
+
+.ikra-department
+	//	background: rgba(255,255,255,0.8)
+	padding-bottom: 50px
+	font-family: Lobster
+
+	h1
+		text-align: left
+		padding-left: 30px
+		color: #C90100
+	p
+		background: rgba(255,255,255,0.8)
+		font-size: 18px
+		line-height: 1.2
+		font-family: arial
+		letter-spacing: 1px
+		text-align: justify
+		padding: 50px 10px
+		color: #333	
+
+
+.questions
+	//width: 50%
+	margin-top: 70px
+	padding: 10px
+	//margin: auto
+	border-radius: 24px
+	background: rgba(252, 252, 252, .69)
+	height: auto	
+	border: 1px solid  #CB000D
+
+
+	h3
+		color: #CB000D
+		color: #000
+		text-align: center
+
+.call-btn, .about-btn
+	float: left
+	border: #CB000D 2px solid
+	border-radius: 10px
+	display: block
+	margin: 0px 13%
+	width: 40%
+	height: 50px
+	text-align: center
+	padding-top: 2%
+	text-decoration: none
+	font-size: 20px
+	color: #CB000D
+	background: rgba(255,255,255,0.8)
+	&:hover
+		background: rgba(150, 17, 0, 0.5)
+		color: red
+		text-decoration: none
+	
+.viber-btn
+	//text-align: center
+	float: left
+	padding: 0
+	display: block
+	width: 50px
+	height: 50px solid red
+	position: relative
+	img
+		width: 50px
+		max-width: 100%
+
+
+	
+.whatsapp-btn
+	//text-align: center
+	float: left
+	padding: 0
+	display: block
+	width: 50px
+	height: 50px solid red
+	position: relative
+	img
+		width: 50px
+		max-width: 100%		
+
+
+
+
+.menu-production
+	margin-top: 90px
+	margin-left: auto
+	margin-right: auto
+	width: 100%
+	padding-bottom: 150px
+	//max-width: 1760px
+	//min-width: 1380px
+	//height: 1701px
+	background: url('../img/bg-menu-production3.png') no-repeat
+	background: url('../img/slanec1.jpg') no-repeat
+	background-size: 100% 100%
+	background-position: 50% 50%
+	position: relative
+	//overflow-y: hidden
+	//overflow-y: auto
+	&:after, &:before
+		content: ""
+		clear: both	
+
+
+
+	.ovs	
+		position: absolute
+
+	.fish3
+		left: -0%
+		top: -0%	
+		width: 15%
+		z-index: 99
+
+	.fish2
+		bottom: 3%
+		left: 3%	
+		width: 15%
+
+
+	.fish
+		right: 0
+		top: 35%
+		width: 15%
+
+
+	.knife
+		top: 0
+		right: 0
+		width: 20%
+
+	.knife2
+		bottom: 5%
+		left: -5%
+		width: 18%	
+		transform: rotate(90deg)	
+
+	.ikra
+		bottom: 0
+		right: 0
+		width: 15%
+
+	.kroshki
+		top: 0
+		left: 0		
+		width: 100%
+		max-height: 100%
+
+	.perec
+		top: 10%
+		right: 1%		
+		
+
+	.list3
+		left: 0 
+		top: 45%		
+		width: 10%
+
+
+	.list4
+		bottom: -5%
+		left: 65%
+		width: 15%
+
+
+	.hvoy
+		top: 10%
+		right: 25%	
+	.row
+		&:after, &:before
+			content: ""
+			clear: both			
+		.title-block
+			text-align: center
+			color: #fff
+			padding-top: 40px
+			padding-bottom: 0px
+			h1
+				text-transform: uppercase
+				font-family: 'Lobster', cursive
+				font-family: 'DS Eraser Cyr', arial
+				font-size: 72px
+			
+			h2
+				margin-top: 0
+
+				border-bottom: 1px #fff solid
+				border-top: 1px #fff solid
+				text-transform: uppercase
+				font-family: 'NanumGothic'
+				font-size: 36px			
+		
+		.questions
+			//width: 50%
+			padding: 10px
+			margin: auto
+			border-radius: 24px
+			background: rgba(37, 37, 37, 0.54)
+			height: 200px	
+			h3
+				
+				
+				color: #fff
+				text-align: center
+
+		.call-btn, .about-btn
+			float: left
+			border: #fff 1px solid
+			border-radius: 10px
+			display: block
+			margin: 0px 13%
+			width: 40%
+			height: 50px
+			text-align: center
+			padding-top: 2%
+			text-decoration: none
+			font-size: 20px
+			color: #fff
+			background: rgba(0,0,0,0.5)
+			&:hover
+				background: rgba(150, 17, 0, 0.5)
+ 		
+		.viber-btn
+			//text-align: center
+			float: left
+			padding: 0
+			display: block
+			width: 50px
+			height: 50px solid red
+			position: relative
+			img
+				width: 50px
+				max-width: 100%
+
+
+ 		
+		.whatsapp-btn
+			//text-align: center
+			float: left
+			padding: 0
+			display: block
+			width: 50px
+			height: 50px solid red
+			position: relative
+			img
+				width: 50px
+				max-width: 100%				
+
+		
+		.product
+			width: 100%
+			color: #fff
+			min-height: 450px
+			//padding-left: 100px
+			a
+				text-decoration: none
+				display: block
+				color: #fff
+				transition: all 1s
+				&:hover
+					color: #C90100
+					//background: rgba(255,255,255,0.2)
+
+					//border-radius: 50px
+				&:hover img
+					//transform: rotateZ(360deg) //rotateY(360deg) rotateX(360deg)
+
+					transition: all .5s				
+
+			img
+				width: 90%
+				margin: auto
+				display: block
+				transition: all .7s	
+			span
+				display: block
+				padding-top: 30px
+				width: 100%
+				text-align: center
+				font-size: 35px
+				text-transform: uppercase
+				font-family: 'DS Eraser Cyr', arial
+
+
+
+
+.products
+	margin-top: 90px
+	margin-left: auto
+	margin-right: auto
+	margin-bottom: 90px
+	width: 100%
+	min-height: 700px
+	padding-bottom: 200px
+	//max-width: 1760px
+	//min-width: 1380px
+	//height: 1701px
+	background: url('../img/page-product/bg-product.png') no-repeat
+	background: url('../img/slanec1.jpg') no-repeat
+	background-size: 95.7% 100%
+	background-position: 50% 50%
+	position: relative
+	&:after, &:before
+		content: ""
+		clear: both	
+	.fancybox
+
+		display: block
+		//height: 50px
+		
+		padding: 5% 0
+		text-align: center
+		text-transform: uppercase
+		width: 100%
+		margin: 0px auto	
+		text-decoration: none
+		color: lightgreen
+		//border: 2px solid rgba(100,255,100,0.9)
+		color: rgba(100,255,100,0.9)
+
+
+		color: red
+		border: 2px solid rgba(0,0,0,0)
+		font-size: 15px
+		font-weight: bold
+		background: rgba(0,0,0,0.5)
+		transition: 1s all
+		&:hover
+			text-decoration: none
+			
+			background: rgba(0,0,0,0.8)
+
+			border: 2px solid rgba(100,255,100,0.9)
+			color: rgba(100,255,100,0.9)		
+			border-radius: 0px
+		
+			transition: .8s all
+		
+	.ovs
+		position: absolute
+	.soul
+		top: 0 
+		left: 2%
+		z-index: 2
+
+	.soul41
+		right: 2%
+		bottom: 0
+		transform: rotate(180deg)	
+	.soul51
+		right: 2%
+		bottom: 0
+		width: 25%
+		transform: rotate(180deg)	
+	.salat-l
+		left: 2.2%
+		top: 15%
+		z-index: 0
+	.kroshki2
+		left: 2%
+		top: 0	
+		height: 100%
+		width: 90%
+		z-index: 0
+
+
+	.greenlist51
+		right: 5%
+		top: 45%
+		width: 5%
+
+	.ukrop
+		width: 15%
+		right: 2%
+		bottom: 0	
+
+	.ukrop61
+		top: 0
+		right: 2%	
+		transform: rotate(-90deg)
+
+	.perec
+		right: 5%
+		top: 30%	
+		//transform: rotate(30deg)	
+
+	.perec2		
+		top: 5%
+		right: 5%
+
+	.perec3	
+		bottom: 5%
+		right: 40%
+		transform: scale(-1, 1)  rotate(40deg);
+
+	.perec31
+		right: 5%
+		top: 15%
+
+	.perec41
+		right: 5%
+		top: 20%
+	.perec61
+		top: 5%
+		left: 25%	
+		transform: rotate(70deg)				
+	.perec71
+		top: 15%
+		left: 50%	
+		transform: rotate(-120deg)		
+	.perec81
+		top: 2%
+		right: 8%	
+		transform: rotate(-50deg)			
+	.hvoy
+		right: 5%
+		top: 5%
+	.hvoy2
+		right: 35%
+		bottom: 15%	
+		transform: rotate(180deg)
+
+	.hvoy3
+		right: 5%
+		bottom: 5%	
+		transform: scale(-1, 1) rotate(30deg)
+		
+		width: 15%
+
+
+
+	.hvoy31
+		bottom: 5%
+		right: 5%
+		width: 15%	
+		transform: scale(-1, 1) rotate(220deg)
+
+	.hvoy41
+		top: 5%
+		right: 5%
+		width: 10%	
+		transform: scale(-1, 1) rotate(220deg)				
+
+	.hvoy42
+		bottom: 10%
+		right: 30%
+		width: 8%	
+		transform: scale(-1, 1) rotate(50deg)	
+
+
+	.hvoy51
+		top: 5%
+		right: 5%
+		width: 10%	
+		transform: scale(-1, 1) rotate(220deg)				
+
+	.hvoy52
+		bottom: 10%
+		right: 30%
+		width: 8%	
+		transform: scale(-1, 1) rotate(50deg)		
+	.hvoy61
+		bottom: 5%
+		right: 5%
+		width: 15%	
+		transform: scale(-1, 1) rotate(220deg)		
+	.hvoy71
+		right: 2%
+		top: 45%	
+		width: 13%
+		transform: rotate(-90deg)	
+	.hvoy81
+		right: 45%
+		top: 25%	
+		width: 13%
+		transform: scale(-1, 1) rotate(220deg)
+
+
+	.knife2
+		bottom: 30%
+		left: 60%	
+		transform: rotate(35deg)	
+
+
+	.knife31
+		right: 20%
+		top: 40%
+		transform: scale(-1, 1) rotate(75deg)	
+
+
+	.knife61
+		right: 1%
+		top: 40%
+		transform: scale(-1, 1) rotate(120deg)	
+
+
+
+
+	.row
+		z-index: 80
+		&:after, &:before
+			content: ""
+			clear: both			
+		.lb
+			z-index: 80
+			position: relative
+			.salat2
+				position: absolute
+				width: 50%
+				//height: 50%
+				right: 11%
+				bottom: 00%
+				z-index: 8
+
+
+			img
+				position: relative
+				width: 100%
+				//margin-left: -11%
+				//margin-left: -11%
+				z-index: 99				
+		.title-block
+			text-align: center
+			color: #fff
+			padding-bottom: 0px
+			padding-top: 50px
+			h1
+				text-transform: uppercase
+				font-family: 'Lobster', cursive
+				font-family: 'DS Eraser Cyr', arial
+				font-size: 50px
+				width: 100%
+			
+			h2
+				margin-top: 0
+
+				border-bottom: 1px #fff solid
+				border-top: 1px #fff solid
+				text-transform: uppercase
+				font-family: 'NanumGothic'
+				font-size: 36px			
+
+
+
+
+		
+		.info
+			padding-top: 25%
+			position: relative
+
+			table
+				width: 100%
+				.td-w1
+					background: rgba(255,255,255,0.8)
+
+				.td-w2	
+					background: rgba(255,255,255,0.6)
+					color: #C00
+				td
+					border: 1px solid #fff
+					height: 40px
+					background: rgba(255,255,255,0.3)
+					text-align: center
+					color: #000
+					text-transform: capitalize
+					font-weight: bold
+
+
+			p
+				position: absolute
+				bottom: -80%
+				display: block
+				padding-top: 3%
+				height: 70px
+				margin-top: 50px
+				margin-left: -120%
+				//margin-left: -50px	
+				//padding: 10px 20px
+				width: 230%
+				min-width: 330px
+				line-height: 1.5	
+				color: #000
+				font-size: 18px
+				font-family: Roboto Regular
+				background:  rgba(255,255,255,0.8)
+
+				img
+					position: absolute
+					right: 2%
+					top: 3%
+					//margin-top: -30px
+					//margin-left: 320px
+					width: 55px
+
+
+
+	.pr2
+		.info
+			padding-top: 0
+
+		table
+			margin-top: 50px	
+		img	
+			width: 70%
+			margin-left: 15%
+			margin-top: 10%
+
+			margin-left: 30
+			margin-top: 49%	
+
+
+.why-we
+	margin-top: 80px
+	margin-left: auto
+	margin-right: auto
+	width: 100%
+	padding-bottom: 50px
+	//max-width: 1760px
+	//min-width: 1380px
+	//height: 1701px
+	// background: rgba(255,255,255,0.6)
+	background-size: 100% 100%
+	background-position: 50% 50%
+	background: rgba(255,255,255,0.8)
+	&:after, &:before
+		content: ""
+		clear: both	
+
+
+	.row
+			
+		h1
+			text-align: center
+			color: #961100
+			text-transform: uppercase
+			font-family: Lobster
+			font-size: 36px
+
+
+	
+		.block
+			display: block
+			padding-top: 60px
+			width: 100%
+			min-height: 100px
+
+		.textblock
+			float: left	
+			width: 70%
+			height: 100%
+			padding-left: 20px
+			h3
+				font-family: Noto Serif
+				margin-top: 0
+
+			p
+				font-family: Noto Sans
+				
+		.circle
+			float: left
+			padding: 20px 15px
+			display: block
+			position: relative
+			border-radius: 90px
+			width: 90px
+			height: 90px
+			background: #961100
+			background: #fff
+			img
+				width: 90%
+				display: block
+				position: relative
+				margin:  auto
+
+
+.process, #rec1
+	position: relative
+	display: none
+	width: 80%
+	margin: 0 auto
+	span 
+
+		font-family: RobotoRegular
+		font-size: 20px
+	p
+		
+		margin-top: 25px
+		width: 100%
+		display: block
+		font-size: 15px	
+
+
+
+.book
+	margin-top: 80px
+	margin-left: auto
+	margin-right: auto
+	width: 100%
+	height: auto
+	padding-bottom: 50px
+	//max-width: 1760px
+	//min-width: 1380px
+	//height: 1701px
+	// background: rgba(255,255,255,0.6)
+	background-size: 100% 100%
+	background-position: 50% 50%
+	&:after, &:before
+		content: ""
+		clear: both	
+
+	h1
+		text-transform: uppercase
+		text-align: center
+		font-family: Lobster
+		font-size: 36px		
+		color: #961100	
+	.book-slider
+		background: url('../img/book.png') no-repeat
+		background-size: 100% 100%
+		width: 100%
+		height: 881px
+		padding-top: 20px
+		height: 70vh
+		-webkit-box-shadow: 0px 20px 19px 0px rgba(50, 50, 50, 0.75)
+		-moz-box-shadow:    0px 20px 19px 0px rgba(50, 50, 50, 0.75)
+		box-shadow:         0px 20px 19px 0px rgba(50, 50, 50, 0.75)
+
+
+
+#magazine
+	margin: 0 auto
+	//padding-top: 5%
+	width: 95%
+	height: 830px
+	height: 98%
+	overflow: inherit
+
+	.page
+		
+		opacity: 1
+		background: #d9d9d9 /* Old browsers */
+		background: -moz-linear-gradient(left, #d9d9d9 0%, #d9d9d9 19%, #d9d9d9 19%, #d9d9d9 23%, #f0f0f0 100%) /* FF3.6-15 */
+		background: -webkit-linear-gradient(left, #d9d9d9 0%,#d9d9d9 19%,#d9d9d9 19%,#d9d9d9 23%,#f0f0f0 100%) /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to right, #d9d9d9 0%,#d9d9d9 19%,#d9d9d9 19%,#d9d9d9 23%,#f0f0f0 100%) /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9d9d9', endColorstr='#f0f0f0',GradientType=1 ) /* IE6-9 */
+
+		// &:before
+		// 	position: absolute
+		// 	top: -30px
+		// 	right: 0px
+		// 	content: ""
+		// 	height: 30px
+		// 	width: 100px
+		// 	border-radius: 100px
+		// 	border: 1px solid red
+		// 	background: red
+		// 	z-index: 9999999
+	div
+		//margin-top: 10px
+ 
+		
+		//height: 600px
+		width: 150px
+		font-size: 55px
+		opacity: 1
+		//background: rgba(255,255,255,0.5)
+		img
+			width: 80%
+			margin: 12% auto 10px
+			display: block
+			box-shadow:         7px 7px 19px 2px rgba(50, 50, 50, 0.75)
+		h2
+			margin-top: 5%
+			margin-bottom: 0
+			text-align: center
+			font-size: 40px
+			font-size: 30px	
+			font-family: Lobster
+			color: #961100
+		.ingr
+			padding-top: 0
+			width: 80%
+			margin: 0 auto
+			span 
+				margin-top: 0
+				font-family: RobotoRegular
+				font-size: 20px
+			ul
+				list-style-type: none
+				margin-left: -8px
+				margin-bottom: 0
+				width: 90%
+				display: block
+				font-size: 12px	
+				li
+					line-height: 1.0
+		
+		
+		.process, #rec1
+			display: none
+			width: 80%
+			margin: 0 auto
+			span 
+
+				font-family: RobotoRegular
+				font-size: 20px
+			p
+				
+				margin-top: 25px
+				width: 100%
+				display: block
+				font-size: 15px	
+
+		.more
+			width: 15vw
+			height: 90px
+			background: url("../img/more.png") no-repeat
+			background-size: 100%
+			margin: 0 auto		
+			padding-top: 3.5%
+			text-align: center
+			a
+				display: block
+				margin: 0 auto
+				font-size: 18px
+				text-decoration: none
+				color: #8e4c27
+				font-family: RobotoLight
+
+#magazine 
+	.turn-page
+		margin-top: 10px
+		width: 100%
+		height: 500px
+		background-color: green
+
+
+
+.clients
+	margin-top: 80px
+	margin-left: auto
+	margin-right: auto
+	width: 100%
+	height: auto
+	padding-bottom: 50px
+	background: rgba(255,255,255,0.8)		
+	h1
+		text-transform: uppercase
+		color: #961100
+		text-align: center
+		font-family: Lobster
+		font-size: 36px		
+
+
+
+	.block
+		width: 100%
+		margin-top: 50px
+		text-align: center
+		height: 250px
+		//height: 200px
+		hr
+			background: black 	
+			height: 1px
+			margin: 20px auto
+			width: 70%
+		img
+			width: auto
+			height: 70px
+			padding-left: 0px
+			margin: 0 auto
+			display: block
+			// background: url("../img/p1.png") no-repeat
+			// background-size: 100%
+
+		h4
+			margin-top: 50px
+			font-family: Noto Serif
+			font-size: 1.2em	
+			font-weight: bold
+			letter-spacing: 1px
+
+		p
+			font-size: 1.1em
+			line-height: 1.3		
+			font-family: Noto Sans
+
+
+
+
+.partners
+	margin-top: 80px
+	margin-left: auto
+	margin-right: auto
+	width: 100%
+	height: auto
+	padding-bottom: 50px	
+	background: rgba(255,255,255,0.8)	
+	h1
+		text-transform: uppercase
+		color: #961100
+		text-align: center
+		font-family: Lobster
+		font-size: 36px		
+
+
+
+	.block
+		width: 100%
+		margin-top: 50px
+		//height: 200px
+		img
+			//width: 100%
+			//height: 100%
+			padding-left: 0px
+			margin: 0 auto
+			display: block
+			// background: url("../img/p1.png") no-repeat
+			// background-size: 100%
+		
+
+	
+	.prtn
+		margin-top: 20px
+		position: relative
+		width: 11.1111%
+		display: inline-block
+		display: block
+		float: left
+		padding: 0px 20px 
+		height: 150px
+
+
+		.img2
+			position: absolute
+			width: 90%
+			top: 0
+			left: 0
+			display: none
+
+		.img1
+			position: absolute
+			width: 90%	
+			top: 0
+			left: 0
+
+		&:hover .img2
+			display: block	
+		&:hover .img1
+			display: none		
+	
+.cert
+	margin-top: 80px
+	margin-left: auto
+	margin-right: auto
+	width: 100%
+	height: auto
+	padding-bottom: 50px
+	h1 
+		text-transform: uppercase
+		color: #961100
+		text-align: center
+		font-family: Lobster
+		font-size: 36px	
+
+
+	.slider111
+
+		div
+			margin-right: 15px
+			//margin-right: 10px
+			//margin-left: 10px
+			padding-bottom: 20px
+			
+			a
+				display: block
+			img
+				width: 100%
+				margin-right: 50px
+				box-shadow:         7px 7px 19px 2px rgba(50, 50, 50, 0.75)
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.news
+	margin-top: 80px
+	margin-left: auto
+	margin-right: auto
+	width: 100%
+	height: auto
+	padding-bottom: 50px		
+	h1
+		text-transform: uppercase
+		color: #961100
+		text-align: center
+		font-family: Lobster
+		font-size: 36px		
+
+	.slider112
+
+		div
+			margin-right: 20px
+			img
+				width: 100%
+				margin-right: 50px		
+
+
+
+	.block
+		width: 100%
+		margin-top: 50px
+		padding-bottom: 20px
+		background: #fff
+		min-height: 530px
+		height: auto
+		position: relative
+		//height: 200px
+		img
+			width: 100%
+			//width: auto
+			//height: 100%
+			//max-height: 200px
+			padding-left: 0px
+			margin: 0 auto
+			display: block
+			// background: url("../img/p1.png") no-repeat
+			// background-size: 100%
+
+			&:after
+				content: ""
+				clear: both
+		p
+			line-height: 1.2
+			letter-spacing: 0px
+			padding: 20px 15px	0
+			text-align: left
+			font-size: 16px
+			font-family: Roboto Regular
+			text-transform: uppercase
+
+		a
+			color: #cb0101
+			padding-left: 20px
+			
+			
+			text-decoration: underline		
+
+		.ya-share2
+			position: absolute
+			//margin: 0 10px
+			bottom: 5%
+			display: block
+			width: 100%
+
+			//position: relative
+			//margin: 10% auto 0
+			padding: 0 25px
+			a
+				padding: 0
+
+		.ya-share2__container_size_m .ya-share2__item 
+		    margin: 5px 0px 0px 0
+		    padding: 0
+		    width: 30px
+		
+							
+
+
+.border111
+	position: relative
+	width: 100%
+	height: 100px
+	img
+		position: absolute
+		width: 100%
+		height: 50px
+		margin-top: 50px
+		left: 0
+		top: 0%
+
+.footer
+	// border-top:  solid 50px red
+	// border-image: url("../img/kanat.png") 50 50
+	position: relative
+	width: 100%
+	height: 1160px
+	background: url("../img/bg-footer.png")
+	background-size: cover
+	.kanat
+		width: 100%
+		display: block
+		position: absolute
+		top: -1%
+		left: 0
+		height: auto
+	.container
+		height: 100%
+		position: relative
+	fieldset
+		position: relative
+		margin: 60px auto
+		color: #000
+		background: rgba(255,255,255,0.8)
+		width: 110%
+		height: 500px
+		height: auto
+		
+		border: solid 4px   #961100
+		z-index: 7
+		padding: 0 10px 5%
+		legend
+			background:  #961100
+			height: 45px
+			width: 50%
+			padding-top: 3%
+			color: #fff
+			font-size: 24px
+			font-family: lobster
+			text-transform: uppercase
+			&:after
+				content: ""
+				clear: both
+		h1
+			font-family: Roboto Regular
+			text-align: center
+			font-size: 30px
+			padding: 0 20px
+			margin: 0
+			&:after
+				content: ""
+				clear: both
+			
+			
+
+
+		span
+			font-family: Roboto Regular
+			margin-top: 10px
+			text-align: left
+			text-align: center
+			width: 100%
+			padding: 0 20px
+			display: block	
+			font-size: 18px
+			&:after
+				content: ""
+				clear: both
+
+
+		.address
+			line-height: 1.4
+
+		.row	
+			width: 100%
+			height: auto
+
+
+		.ukr
+			position: relative
+			float: left
+			margin: 0px 10px 0% 15%
+			display: block
+			padding: 10px
+			width: 50px
+			//background: url("../img/facebook.png") no-repeat
+			background-size: 100%
+			transition:  all 1s
+		
+			a
+				position: relative
+				width: 50px
+				height: 50px
+				display: block
+				color: #fff	
+				//background: #004A7F
+				text-align: center
+				font-size: 16px
+				padding: 20%
+				border-radius: 8px
+				transition:  all 1s
+				&:hover
+					transition:  all 1s
+					//background: #E0E0E0
+				&:hover .img-hover
+					display: block
+					opacity: 1
+					//transition:  all .5s
+					//z-index: 11
+					//background: #930900	
+				&:hover .img-nohover
+					display: none
+					//opacity: 0
+					//transition:  all 1s
+					//background: #930900	
+				img		
+					transition:  all 1s
+					position: absolute
+					top: 0 
+					left: 0			
+					width: 50px
+					height: 50px
+					display: block
+
+				.img-nohover
+					//opacity: 1
+					display: block
+					transition:  all 1s
+					z-index: 9
+
+				.img-hover
+					display: none	
+					//opacity: 0.5
+					z-index: 0
+					transition:  all 1s
+				
+
+
+		.facebook
+			float: left
+			margin: 0px 10px 0px 10px
+			display: block
+			padding: 0
+			width: 50px
+			text-align: center
+			//background: url("../img/facebook.png") no-repeat
+			//background-size: 100%
+			
+			i
+				transition: all 0.3s
+				font-size: 30px
+				color: #930900
+				border-radius: 25px
+				background: rgba(138, 138, 138, 0.15)
+				width: 50px
+				height: 50px
+				line-height: 50px
+				&:hover
+					color: #38596F	
+					color: #DE0900					
+					transition: all 0.5s
+					background: #999
+			a
+				width: 50px
+				height: 50px
+				display: block
+				color: #fff	
+				//background: #004A7F
+				text-align: center
+				font-size: 16px
+				padding: 20%
+				border-radius: 8px
+				&:hover
+					//background: #930900		
+				img		
+					position: relative			
+					width: 50px
+					height: 50px
+					display: block
+
+
+		.instagram
+			//background: url("../img/instagram_icon.png") no-repeat
+			//background-size: 100%
+			margin: 0px 10px 0px 10px
+			float: left
+
+			display: block
+			padding: 0
+			width: 50px
+
+
+			i
+				transition: all 0.3s
+				font-size: 30px
+				color: #930900
+				border-radius: 25px
+				background: rgba(138, 138, 138, 0.15)
+				width: 50px
+				height: 50px
+				line-height: 50px
+				&:hover
+					color: #DE0900		
+					background: #999			
+					transition: all 0.5s			
+			a
+				width: 50px
+				height: 50px
+				display: block
+				color: #fff	
+				//background: #bc2e22
+				text-align: center
+				font-size: 16px
+				padding: 20%
+				border-radius: 8px
+				&:hover
+					//background: #930900								
+
+				img		
+					position: relative			
+					width: 50px
+					height: 50px
+					display: block
+
+
+		.youtube
+			//background: url("../img/instagram_icon.png") no-repeat
+			//background-size: 100%
+			margin: 0px 10px 0px 10px
+			float: left
+
+			display: block
+			padding: 0
+			width: 50px
+
+
+			i
+				transition: all 0.3s
+				font-size: 30px
+				color: #930900
+				border-radius: 25px
+				background: rgba(138, 138, 138, 0.15)
+				width: 50px
+				height: 50px
+				line-height: 50px
+				&:hover
+					color: #DE0900		
+					background: #999			
+					transition: all 0.5s			
+			a
+				width: 50px
+				height: 50px
+				display: block
+				color: #fff	
+				//background: #bc2e22
+				text-align: center
+				font-size: 16px
+				padding: 20%
+				border-radius: 8px
+				&:hover
+					//background: #930900								
+
+				img		
+					position: relative			
+					width: 50px
+					height: 50px
+					display: block					
+
+		.phone	
+			text-align: center
+			font-size: 22px
+			margin-top: 20px
+			&:after
+				content: ""
+				clear: both
+			i
+				margin-right: 20px
+				padding-top: 5px
+				width: 30px
+				height: 30px
+				border: 2px solid #000
+				border-radius: 30px
+				&:after
+					content: ""
+					clear: both
+
+		.btn
+			float: none
+			display: block
+			border-radius: 8px
+			margin: 60px  auto 0
+			height: 60px
+			width: 60%		
+			background: #bc2e22
+			text-align: center
+			padding-top: 3%
+			font-size: 24px
+			font-family: RobotoRegular
+			color: #fff
+			text-decoration: none
+
+			&:hover
+				background: #930900
+
+	.studio
+		position: absolute
+		bottom: 50px	
+		left: 50px
+		font-weight: bold
+		color: #000		
+		a
+			color: #08679d	
+
+	.conservs
+		position: absolute
+		right: -3%
+		bottom: 10%
+		z-index: 4
+		.ragu
+			float: left
+			padding-top: 30%
+			width: 40%
+		.nerka	
+			float: left
+			width: 50%
+
+@import "media"
+
+

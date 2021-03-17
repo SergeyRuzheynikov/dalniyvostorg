@@ -1,0 +1,2802 @@
+@import "bourbon"
+
+/*==========  Desktop First Method  ==========*/
+
+
+@media only screen and (max-width : 1280px)
+
+
+	body
+		color: #555
+		overflow-x: auto
+		overflow-y: auto
+		position: relative
+		margin: 0 auto
+		max-width: 1920px
+		//min-width: 1280px
+		width: 100%
+		height: auto
+		//padding-bottom: 50px
+		//width: 100%
+		background: url('../img/bg-brick1.jpg') repeat-y
+		background-size: 100%
+
+		.hidden
+			display: none
+
+
+		.clform2
+			position: fixed
+			top: 50%
+			left: 50%
+
+
+			font-family: 'Franklin Gothic Demi Cond'
+			letter-spacing: 7px
+			font-style: normal	
+			min-width: 320px
+			width: 700px
+			display: block
+			margin-top: -200px
+			margin-left: -300px
+			
+			border: 4px solid #CD0802
+			border-radius: 5px	
+			background-color: #eee
+			background: rgba(255,255,255,.8)
+			color: #414141
+
+			h4
+				margin-top: 20px
+				text-transform: uppercase
+				text-align: center
+				width: 100%
+				
+				font-size: 30px
+		
+
+			.buyform2
+				position: relative
+				
+				width: 320px
+				height: 300px
+
+			
+				display: block
+				
+				width: 90%
+				margin:  auto
+				margin-top: 40px
+				box-sizing: border-box
+
+				ul
+
+					list-style-type: none
+					width: 100%
+					li
+						margin-top: 10px
+						width: 100%
+						span
+							box-sizing: border-box
+							padding: 0px 10px
+
+							float: left
+							width: 30%	
+							height: 50px
+							font-size: 20px
+
+
+						input
+							padding-left: 10px
+							color: #414141
+							font-size: 35px
+							float:right
+							width: 70%
+							height: 50px
+							right: 0px
+							border: 3px solid #CD0802
+							background: rgba(200,200,200,0.9)
+							border-radius: 5px	
+				.sender
+					font-family: 'Myriad Pro'
+					font-weight: bold
+					letter-spacing: 5px
+					font-style: normal				
+					width: 50%
+					height: 60px
+
+					display: block
+					position:relative
+					border-radius: 10px
+					border: 1px solid black
+					background-color: #dd2121
+					
+					
+					color: #fff
+					font-size: 25px
+					text-transform: uppercase
+					margin-top: 20px
+					margin: 20px auto
+					cursor: pointer
+					&:hover, &:focus
+
+					&:active
+						background-color: #615A56
+
+
+
+
+		.navbar-default .navbar-nav>li>a
+			color: #fff
+			&:hover
+				color: #961100
+
+		.navbar
+			transition: all .5s
+			min-height: 150px
+			height: 150px
+			//height: auto
+			position: fixed
+			top: 0 
+			left: 0%
+			margin-left: 0%
+			width: 100%
+			background: rgba(0,0,0,0)
+			z-index: 999
+			border: none
+			&:hover
+				background: white
+				
+			&:hover  .navbar-nav>li>a
+				color: #000	
+				
+				&:hover
+					color: #961100
+					
+
+			&:hover 
+				.navbar-brand
+					.l1
+					
+					.l2
+								
+
+			.navbar-brand
+				
+				position: absolute
+				transition: all .5s
+				
+				//height: 150px
+		
+				
+				text-align: center
+				
+				img
+					//width: 100%
+					height: 100%
+			
+				.l1
+	
+				.l2	
+	
+			
+			.navbar-toggle 
+				z-index: 999999		
+
+			.navbar-left
+				margin-left: 6%	
+			.navbar-right
+				margin-right: 12.5%	
+			ul
+				//float: left
+				margin-top: 0px
+				color: #fff
+				position: relative
+				margin-left: 10%
+				margin: 50px auto
+				font-family: RobotoMedium, sans-serif
+				font-size: 16px
+				font-weight: bold
+				display: block
+				//background: #fff
+
+				li
+
+					text-transform: uppercase
+					line-height: 50px
+					position: relative
+					display: block
+					vertical-align: top
+					padding-left: 3px
+					color: #fff
+					// &:before
+					// 	content: ''
+					// 	position: absolute
+					// 	top: 50%
+					// 	left: 0
+					// 	width: 1px
+					// 	height: 16px
+					// 	margin-top: -8px
+					// 	background: #8F8F8F
+					a
+						color: #fff
+						text-decoration: none
+						&:hover
+							color: #961100
+
+
+
+
+
+
+	.products
+		margin-top: 90px
+		margin-left: auto
+		margin-right: auto
+		width: 100%
+		min-height: 700px
+		padding-bottom: 200px
+		//max-width: 1760px
+		//min-width: 1380px
+		//height: 1701px
+		//background: url('../img/page-product/board.png') no-repeat
+		
+		//background-size: 100% 100%
+		background-position: 50% 50%
+		&:after, &:before
+			content: ""
+			clear: both	
+
+		.row
+			&:after, &:before
+				content: ""
+				clear: both			
+			.title-block
+				text-align: center
+				color: #fff
+				padding-bottom: 0px
+				padding-top: 50px
+				h1
+					text-transform: uppercase
+					font-family: 'Lobster', cursive
+					font-family: 'DS Eraser Cyr', arial
+					font-size: 50px
+					width: 100%
+				
+				h2
+					margin-top: 0
+
+					border-bottom: 1px #fff solid
+					border-top: 1px #fff solid
+					text-transform: uppercase
+					font-family: 'NanumGothic'
+					font-size: 36px			
+			img
+				width: 100%
+				margin-left: -11%
+				margin-left: -4%
+
+
+
+			
+			.info
+				padding-top: 25%
+				table
+					width: 100%
+					.td-w1
+						background: rgba(255,255,255,0.8)
+
+					.td-w2	
+						background: rgba(255,255,255,0.6)
+						color: #C00
+					td
+						border: 1px solid #fff
+						height: 40px
+						background: rgba(255,255,255,0.3)
+						text-align: center
+						color: #000
+						text-transform: capitalize
+						font-weight: bold
+				p
+					position: absolute
+					bottom: -100%
+					display: block
+					padding-top: 3%
+					height: 70px
+					margin-top: 50px
+					margin-left: -120%
+					//margin-left: -50px	
+					//padding: 10px 20px
+					//width: 100%
+					min-width: 330px
+					line-height: 1.5	
+					color: #000
+					font-size: 18px
+					font-family: Roboto Regular
+					background:  rgba(255,255,255,0.8)
+
+
+		.pr2
+			.info
+				padding-top: 0
+
+			table
+				margin-top: 50px	
+			img	
+				width: 70%
+				margin-left: 15%
+				margin-top: 10%
+
+				margin-left: 30
+				margin-top: 49%	
+
+
+
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	/**/
+
+	body
+		color: #555
+		overflow-x: auto
+		overflow-y: auto
+		position: relative
+		margin: 0 auto
+		max-width: 1920px
+		//min-width: 1280px
+		width: 100%
+		height: auto
+		//padding-bottom: 50px
+		//width: 100%
+		background: url('../img/bg-brick1.jpg') repeat-y
+		background-size: 100%
+
+		.hidden
+			display: none
+
+
+		.clform2
+			position: fixed
+			top: 50%
+			left: 50%
+
+
+			font-family: 'Franklin Gothic Demi Cond'
+			letter-spacing: 7px
+			font-style: normal	
+			min-width: 320px
+			width: 700px
+			display: block
+			margin-top: -200px
+			margin-left: -300px
+			
+			border: 4px solid #CD0802
+			border-radius: 5px	
+			background-color: #eee
+			background: rgba(255,255,255,.8)
+			color: #414141
+
+			h4
+				margin-top: 20px
+				text-transform: uppercase
+				text-align: center
+				width: 100%
+				
+				font-size: 30px
+		
+
+			.buyform2
+				position: relative
+				
+				width: 320px
+				height: 300px
+
+			
+				display: block
+				
+				width: 90%
+				margin:  auto
+				margin-top: 40px
+				box-sizing: border-box
+
+				ul
+
+					list-style-type: none
+					width: 100%
+					li
+						margin-top: 10px
+						width: 100%
+						span
+							box-sizing: border-box
+							padding: 0px 10px
+
+							float: left
+							width: 30%	
+							height: 50px
+							font-size: 20px
+
+
+						input
+							padding-left: 10px
+							color: #414141
+							font-size: 35px
+							float:right
+							width: 70%
+							height: 50px
+							right: 0px
+							border: 3px solid #CD0802
+							background: rgba(200,200,200,0.9)
+							border-radius: 5px	
+				.sender
+					font-family: 'Myriad Pro'
+					font-weight: bold
+					letter-spacing: 5px
+					font-style: normal				
+					width: 50%
+					height: 60px
+
+					display: block
+					position:relative
+					border-radius: 10px
+					border: 1px solid black
+					background-color: #dd2121
+					
+					
+					color: #fff
+					font-size: 25px
+					text-transform: uppercase
+					margin-top: 20px
+					margin: 20px auto
+					cursor: pointer
+					&:hover, &:focus
+
+					&:active
+						background-color: #615A56
+
+
+
+
+		.navbar-default .navbar-nav>li>a
+			color: #fff
+			&:hover
+				color: #961100
+
+		.navbar
+			transition: all .5s
+			min-height: 100px
+			height: 100px
+			//height: auto
+			position: fixed
+			top: 0 
+			left: 0%
+			margin-left: 0%
+			width: 100%
+			background: rgba(0,0,0,0)
+			z-index: 999
+			border: none
+			&:hover
+				background: white
+				
+			&:hover  .navbar-nav>li>a
+				color: #000	
+				
+				&:hover
+					color: #961100
+					
+
+			&:hover 
+				.navbar-brand
+					.l1
+					
+					.l2
+								
+
+			.navbar-brand
+				
+				position: absolute
+				transition: all .5s
+				
+				//height: 150px
+		
+				
+				text-align: center
+				
+				img
+					//width: 100%
+					height: 100%
+			
+				.l1
+	
+				.l2	
+	
+			
+			.navbar-toggle 
+				z-index: 999999		
+
+			.navbar-left
+				margin-left: 1%	
+			.navbar-right
+				margin-right: 4.5%	
+			ul
+				//float: left
+				margin-top: 0px
+				color: #fff
+				position: relative
+				margin-left: 10%
+				margin: 30px auto
+				font-family: RobotoMedium, sans-serif
+				font-size: 16px
+				font-weight: bold
+				display: block
+				//background: #fff
+
+				li
+
+					text-transform: uppercase
+					line-height: 50px
+					position: relative
+					display: block
+					vertical-align: top
+					padding-left: 3px
+					color: #fff
+					// &:before
+					// 	content: ''
+					// 	position: absolute
+					// 	top: 50%
+					// 	left: 0
+					// 	width: 1px
+					// 	height: 16px
+					// 	margin-top: -8px
+					// 	background: #8F8F8F
+					a
+						color: #fff
+						text-decoration: none
+						&:hover
+							color: #961100
+
+
+
+
+
+
+	.products
+		margin-top: 90px
+		margin-left: auto
+		margin-right: auto
+		width: 100%
+		min-height: 700px
+		padding-bottom: 200px
+		//max-width: 1760px
+		//min-width: 1380px
+		//height: 1701px
+		//background: url('../img/page-product/board.png') no-repeat
+		
+		//background-size: 100% 100%
+		background-position: 50% 50%
+		&:after, &:before
+			content: ""
+			clear: both	
+
+		.row
+			&:after, &:before
+				content: ""
+				clear: both			
+			.title-block
+				text-align: center
+				color: #fff
+				padding-bottom: 0px
+				padding-top: 50px
+				h1
+					text-transform: uppercase
+					font-family: 'Lobster', cursive
+					font-family: 'DS Eraser Cyr', arial
+					font-size: 50px
+					width: 100%
+				
+				h2
+					margin-top: 0
+
+					border-bottom: 1px #fff solid
+					border-top: 1px #fff solid
+					text-transform: uppercase
+					font-family: 'NanumGothic'
+					font-size: 36px			
+			img
+				width: 100%
+				margin-left: -11%
+				margin-left: -4%
+
+
+
+			
+			.info
+				padding-top: 25%
+				table
+					width: 100%
+					.td-w1
+						background: rgba(255,255,255,0.8)
+
+					.td-w2	
+						background: rgba(255,255,255,0.6)
+						color: #C00
+					td
+						border: 1px solid #fff
+						height: 40px
+						background: rgba(255,255,255,0.3)
+						text-align: center
+						color: #000
+						text-transform: capitalize
+						font-weight: bold
+
+
+				p
+					position: absolute
+					bottom: -80%
+					display: block
+					padding-top: 3%
+					height: 70px
+					margin-top: 50px
+					margin-left: -120%
+					//margin-left: -50px	
+					//padding: 10px 20px
+					width: 230%
+					min-width: 330px
+					line-height: 1.5	
+					color: #000
+					font-size: 18px
+					font-family: Roboto Regular
+					background:  rgba(255,255,255,0.8)
+		.pr2
+			.info
+				padding-top: 0
+
+			table
+				margin-top: 50px	
+			img	
+				width: 70%
+				margin-left: 15%
+				margin-top: 10%
+
+				margin-left: 30
+				margin-top: 49%	
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	// *
+	// 	border: 1px solid red
+
+	// 	box-sizing: border-box
+
+	.row
+		margin: 0	
+	.fixed.xx
+		background: rgba(255,255,255,.99)	
+		transition: all 0.8s ease 0s
+		color: #000
+		height: 80px
+		min-height: 80px
+		-webkit-box-shadow: 0px 10px 19px 0px rgba(50, 50, 50, 0.75)
+		-moz-box-shadow:    0px 10px 19px 0px rgba(50, 50, 50, 0.75)
+		box-shadow:         0px 10px 19px 0px rgba(50, 50, 50, 0.75)
+
+		.xl
+			margin-top: 80px		
+		.navbar-brand
+			transition: all 0.8s ease 0s
+			position: absolute
+
+			width: auto
+			//height: 150px
+			min-height: 00%
+			max-height: 80px
+			height: 80px
+			left: 5%
+			text-align: center
+			margin: 0 auto
+			img
+				//width: 100%
+				height: 100%	
+		ul
+			margin-top: 0px
+			transition: all 0.8s ease 0s
+		.navbar-nav>li>a
+			color: #000
+
+		&:hover  .navbar-nav>li>a
+			color: #000	
+			
+			&:hover
+				color: #961100
+
+		
+
+	body
+
+		
+
+	 .hidden
+	 	display: none
+
+		.clform2
+			position: fixed
+			top: 20%
+			left: 3%
+			font-family: 'Franklin Gothic Demi Cond'
+			letter-spacing: 3px
+			font-style: normal	
+			width: 90%
+			display: block
+			margin: 0 auto
+			//border: 3px solid #f58c59
+			border-radius: 5px	
+			color: #414141
+
+			h4
+				margin-top: 40px
+				text-transform: uppercase
+				text-align: center
+				width: 100%
+				
+				font-size: 25px
+
+			.buyform2
+				position: relative
+				display: block
+				height: 270px
+				width: 90%
+				margin: 0 auto
+				margin-top: 0px
+				box-sizing: border-box
+
+				ul
+
+					list-style-type: none
+					width: 100%
+					li
+						margin-top: 10px
+						width: 100%
+						span
+							box-sizing: border-box
+							padding: 10px 0px
+
+							float: left
+							width: 28%	
+							height: 40px
+							font-size: 20.5px
+
+
+						input
+							padding-left: 10px
+							color: #414141
+							font-size: 25px
+							float:right
+							width: 70%
+							height: 40px
+							right: 0px
+							//border: 3px solid #f58c59
+							border-radius: 5px	
+				.sender
+					font-family: 'Myriad Pro'
+					font-weight: bold
+					letter-spacing: 5px
+					font-style: normal				
+					width: 90%
+					height: 55px
+
+					display: block
+					position:relative
+					border-radius: 10px
+					border: 1px solid black
+					background-color: #dd2121
+					
+					
+					color: #fff
+					font-size: 22.5px
+					text-transform: uppercase
+					margin-top: 20px
+					margin: 20px auto
+					margin-bottom: 0px
+					cursor: pointer
+					&:hover, &:focus
+
+					&:active
+						background-color: #615A56
+
+
+
+		.navbar-default .navbar-nav>li>a
+			color: #000
+			&:hover
+				color: #961100		
+		.navbar
+			transition: all 0.8s ease 0s
+
+			min-height: 80px
+			height: 150px
+			//height: auto
+			position: fixed
+			top: 0 
+			left: 0%
+			margin-left: 0%
+			width: 100%
+			background: rgba(0,0,0,0)
+			z-index: 999999
+			border: none	
+			&:hover 
+				.navbar-brand
+					.l2
+						opacity: 1	
+			.navbar-brand
+				transition: all 0.8s ease 0s
+				position: absolute
+
+				width: auto
+				//height: 150px
+				min-height: 00%
+				max-height: 80px
+				height: 80px
+				left: 45%
+				text-align: center
+				margin: 0 auto
+				img
+					//width: 100%
+					height: 100%				
+
+			.navbar-toggle 
+				z-index: 999999	
+				background: rgba(0,0,0,0.5)
+				position: absolute
+				left: 47.5%
+				bottom: 0%
+				width: 80px
+				height: 40px
+				
+			.navbar-left
+				margin-left: 0%	
+			.navbar-right
+				margin-right: 0%	
+
+
+			.xl
+				margin-top: 150px
+
+			ul
+				//float: left
+				margin-top: 0px
+				color: #fff
+				position: relative
+				margin-left: 10%
+				margin: 0px auto
+				font-family: RobotoMedium, sans-serif
+				font-size: 16px
+				font-weight: bold
+				display: block
+				background: #fff
+
+				li
+
+					text-transform: uppercase
+					line-height: 50px
+					position: relative
+					display: block
+					vertical-align: top
+					padding-left: 3px
+					color: #fff
+					// &:before
+					// 	content: ''
+					// 	position: absolute
+					// 	top: 50%
+					// 	left: 0
+					// 	width: 1px
+					// 	height: 16px
+					// 	margin-top: -8px
+					// 	background: #8F8F8F
+					a
+						color: #fff
+						text-decoration: none
+						&:hover
+							color: #961100		
+		.menu-production
+			margin-top: 90px
+			margin-left: auto
+			margin-right: auto
+			width: 100%
+			padding-bottom: 50px
+			//max-width: 1760px
+			//min-width: 1380px
+			//height: 1701px
+			background: url('../img/slanec768.png') repeat-y
+			background: url('../img/slanec3.png') repeat-y
+			background-size: 100% 100%
+			//background-size: cover
+			//background-position: 50% 50%
+			background-position: 50% 50%
+			&:after, &:before
+				content: ""
+				clear: both	
+
+			.row
+				
+				.title-block
+					text-align: center
+					color: #fff
+					padding-bottom: 50px
+					h1
+						text-transform: uppercase
+						//font-family: 'Lobster', cursive
+						font-size: 50px
+					
+					h2
+						margin-top: 0
+
+						border-bottom: 1px #fff solid
+						border-top: 1px #fff solid
+						text-transform: uppercase
+						font-family: 'NanumGothic'
+						font-size: 36px			
+
+
+				
+				.product
+					//background: rgba(0,0,0,0.5)
+					width: 100%
+					color: #fff
+					height: auto
+					//padding-left: 100px
+					h4
+						font-size: 30px
+						text-align: center
+						text-transform: uppercase
+					.list
+						float: left
+						width: 40%
+						font-size: 24px
+						font-family: Roboto Regular
+						ul
+							list-style-type: none
+							li
+								line-height: 1.5
+						
+					.card
+
+						margin-top: 0%
+						text-align: center
+						float: left
+						width: 60%
+						border: 1px solid #fff
+						padding: 10px 5px
+						font-size: 18px
+						font-family: Roboto Light
+						ul
+							list-style-type: none
+							li
+								line-height: 1.5
+
+
+				.lm
+					
+					
+					
+
+				.rm
+						
+					margin-top: 10%
+
+
+
+
+		.products
+			margin-top: 90px
+			margin-left: auto
+			margin-right: auto
+			width: 100%
+			min-height: 700px
+			padding-bottom: 200px
+			//max-width: 1760px
+			//min-width: 1380px
+			//height: 1701px
+			//background: url('../img/page-product/board.png') no-repeat
+			
+			//background-size: 100% 100%
+			background-position: 50% 50%
+			overflow-x: hidden
+			&:after, &:before
+				content: ""
+				clear: both	
+
+			.row
+				&:after, &:before
+					content: ""
+					clear: both			
+				.title-block
+					text-align: center
+					color: #fff
+					padding-bottom: 0px
+					padding-top: 50px
+					h1
+						text-transform: uppercase
+						font-family: 'Lobster', cursive
+						font-family: 'DS Eraser Cyr', arial
+						font-size: 50px
+						width: 100%
+					
+					h2
+						margin-top: 0
+
+						border-bottom: 1px #fff solid
+						border-top: 1px #fff solid
+						text-transform: uppercase
+						font-family: 'NanumGothic'
+						font-size: 36px			
+				img
+					width: 100%
+					margin-left: -11%
+					margin-left: -4%
+
+
+
+				
+				.info
+					padding-top: 25%
+					table
+						width: 100%
+						.td-w1
+							background: rgba(255,255,255,0.8)
+
+						.td-w2	
+							background: rgba(255,255,255,0.6)
+							color: #C00
+						td
+							border: 1px solid #fff
+							height: 40px
+							background: rgba(255,255,255,0.3)
+							text-align: center
+							color: #000
+							text-transform: capitalize
+							font-weight: bold
+					p
+						position: absolute
+						bottom: -70%
+						display: block
+						padding-top: 3%
+						height: 70px
+						margin-top: 50px
+						margin-left: -35%
+						//margin-left: -50px	
+						//padding: 10px 20px
+						width: 200%
+						min-width: 330px
+						line-height: 1.5	
+						color: #000
+						font-size: 18px
+						font-family: Roboto Regular
+						background:  rgba(255,255,255,0.8)
+
+
+			.pr2
+				.info
+					padding-top: 0
+
+				table
+					margin-top: 50px	
+				img	
+					width: 70%
+					margin-left: 15%
+					margin-top: 10%
+
+					margin-left: 30
+					margin-top: 49%	
+
+
+
+
+
+
+
+		.book
+			display: none
+			margin-top: 80px
+			margin-left: auto
+			margin-right: auto
+			width: 100%
+			height: auto
+			padding-bottom: 50px
+			//max-width: 1760px
+			//min-width: 1380px
+			//height: 1701px
+			// background: rgba(255,255,255,0.6)
+			background-size: 100% 100%
+			background-position: 50% 50%
+			&:after, &:before
+				content: ""
+				clear: both	
+
+			h1
+				text-transform: uppercase
+				text-align: center
+				font-family: Lobster
+				font-size: 36px		
+				color: #961100	
+			.book-slider
+				background: url('../img/book.png') no-repeat
+				background-size: 100% 100%
+				width: 100%
+				height: 100vh
+				padding-top: 20px
+
+
+
+		#magazine
+			margin: 0 auto
+			//padding-top: 5%
+			width: 95%
+			height: 300px
+			height: 98%
+			overflow: inherit
+
+			.page
+				
+				opacity: 1
+				background: #d9d9d9 /* Old browsers */
+				background: -moz-linear-gradient(left, #d9d9d9 0%, #d9d9d9 19%, #d9d9d9 19%, #d9d9d9 23%, #f0f0f0 100%) /* FF3.6-15 */
+				background: -webkit-linear-gradient(left, #d9d9d9 0%,#d9d9d9 19%,#d9d9d9 19%,#d9d9d9 23%,#f0f0f0 100%) /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(to right, #d9d9d9 0%,#d9d9d9 19%,#d9d9d9 19%,#d9d9d9 23%,#f0f0f0 100%) /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9d9d9', endColorstr='#f0f0f0',GradientType=1 ) /* IE6-9 */
+
+				// &:before
+				// 	position: absolute
+				// 	top: -30px
+				// 	right: 0px
+				// 	content: ""
+				// 	height: 30px
+				// 	width: 100px
+				// 	border-radius: 100px
+				// 	border: 1px solid red
+				// 	background: red
+				// 	z-index: 9999999
+			div
+				//margin-top: 10px
+
+				
+				//height: 600px
+				width: 150px
+				font-size: 55px
+				opacity: 1
+				//background: rgba(255,255,255,0.5)
+				img
+					margin: 20px auto 20px
+					display: block
+					width: 50%
+				h2
+					margin-top: 0px
+					text-align: center
+					font-size: 40px	
+					font-family: CyrillicOld
+					color: #961100
+				.ingr
+					width: 80%
+					margin: 0 auto
+					span 
+						font-family: RobotoRegular
+						font-size: 24px
+					ul
+						list-style-type: none
+						margin-left: -8px
+						margin-bottom: 0
+						width: 90%
+						display: block
+						font-size: 18px	
+				.process
+					width: 80%
+					margin: 0 auto
+					span 
+
+						font-family: RobotoRegular
+						font-size: 24px
+					p
+						
+						margin-top: 20px
+						width: 100%
+						display: block
+						font-size: 18px	
+
+				.more
+					width: 270px
+					height: 90px
+					background: url("../img/more.png") no-repeat
+					margin: 0 auto		
+					font-size: 18px
+					text-align: center
+					padding-top: 27px
+					color: #8e4c27
+					font-family: RobotoLight
+
+
+		#magazine 
+			.turn-page
+				margin-top: 10px
+				width: 100%
+				height: 500px
+				background-color: green
+
+
+				.partners
+					margin-top: 80px
+					margin-left: auto
+					margin-right: auto
+					width: 100%
+					height: auto
+					padding-bottom: 50px	
+					background: rgba(255,255,255,0.5)	
+					h1
+						text-transform: uppercase
+						color: #961100
+						text-align: center
+						font-family: Lobster
+						font-size: 36px		
+
+
+
+					.block
+						width: 100%
+						margin-top: 50px
+						//height: 200px
+						img
+							//width: 100%
+							//height: 100%
+							padding-left: 0px
+							margin: 0 auto
+							display: block
+							// background: url("../img/p1.png") no-repeat
+							// background-size: 100%
+						
+
+					
+					.prtn
+						margin-top: 20px
+						position: relative
+						width: 14%
+						display: inline-block
+						display: block
+						float: left
+						padding: 0px 20px 
+						height: 70px
+
+
+						.img2
+							position: absolute
+							width: 90%
+							top: 0
+							left: 0
+							display: none
+
+						.img1
+							position: absolute
+							width: 90%	
+							top: 0
+							left: 0
+
+						&:hover .img2
+							display: block	
+						&:hover .img1
+							display: none	
+
+
+
+
+		.partners
+			margin-top: 80px
+			margin-left: auto
+			margin-right: auto
+			width: 100%
+			height: auto
+			padding-bottom: 50px	
+			background: rgba(255,255,255,0.5)	
+			h1
+				text-transform: uppercase
+				color: #961100
+				text-align: center
+				font-family: Lobster
+				font-size: 36px		
+
+
+
+			.block
+				width: 100%
+				margin-top: 50px
+				//height: 200px
+				img
+					//width: 100%
+					//height: 100%
+					padding-left: 0px
+					margin: 0 auto
+					display: block
+					// background: url("../img/p1.png") no-repeat
+					// background-size: 100%
+				
+
+			
+			.prtn
+				margin-top: 20px
+				position: relative
+				width: 11.11111111111%
+				display: inline-block
+				display: block
+				float: left
+				padding: 0px 20px 
+				height: 80px
+
+
+				.img2
+					position: absolute
+					width: 90%
+					top: 0
+					left: 0
+					display: none
+
+				.img1
+					position: absolute
+					width: 90%	
+					top: 0
+					left: 0
+
+				&:hover .img2
+					display: block	
+				&:hover .img1
+					display: none	
+
+		.cert
+			margin-top: 80px
+			margin-left: auto
+			margin-right: auto
+			width: 100%
+			height: auto
+			padding-bottom: 50px
+			h1 
+				text-transform: uppercase
+				color: #961100
+				text-align: center
+				font-family: Lobster
+				font-size: 36px	
+
+				
+			.slider111
+				display: block
+				margin: 0 auto
+				width: 80%
+
+				div
+					margin-right: 20px
+					img
+						width: 100%
+						margin-right: 50px
+								
+				.slick-dots
+					display: none
+
+
+		.news
+
+			.block
+				width: 100%
+				margin-right: 100px
+				min-height: 660px
+			.slider112
+				display: block
+				margin: 0 auto
+				width: 80%
+
+				div
+					margin-right: 20px
+					img
+						width: 100%
+						margin-right: 50px
+								
+				.slick-dots
+					display: none				
+
+		.footer
+			position: relative
+			width: 100%
+			height: 1160px
+			background: url("../img/bg-footer.png")
+			background-size: cover
+			.container
+				height: 100%
+				position: relative
+			fieldset
+				position: relative
+				margin: 60px auto
+				color: #000
+				background: rgba(255,255,255,0.8)
+				width: 60%
+				//height: 500px
+				
+				border: solid 4px   #961100
+				z-index: 7
+				legend
+					background:  #961100
+					height: 45px
+					width: 50%
+					padding-top: 3%
+					color: #fff
+					font-size: 24px
+					font-family: lobster
+					text-transform: uppercase
+				h1
+					font-family: Roboto Regular
+					text-align: center
+					font-size: 30px
+					padding: 0 20px
+
+				span
+					font-family: Roboto Regular
+					margin-top: 15px
+					text-align: left
+					width: 100%
+					padding: 0 15%
+					display: block	
+					font-size: 18px
+
+
+
+
+
+				.ukr
+					position: relative
+					float: left
+					margin: 0px 5px 0% 16%
+					display: block
+					padding: 10px
+					width: 50px
+					//background: url("../img/facebook.png") no-repeat
+					background-size: 100%
+					transition:  all 1s
+				
+					a
+						position: relative
+						width: 50px
+						height: 50px
+						display: block
+						color: #fff	
+						//background: #004A7F
+						text-align: center
+						font-size: 16px
+						padding: 20%
+						border-radius: 8px
+						transition:  all 1s
+						&:hover
+							transition:  all 1s
+							//background: #E0E0E0
+						&:hover .img-hover
+							display: block
+							opacity: 1
+							//transition:  all .5s
+							//z-index: 11
+							//background: #930900	
+						&:hover .img-nohover
+							display: none
+							//opacity: 0
+							//transition:  all 1s
+							//background: #930900	
+						img		
+							transition:  all 1s
+							position: absolute
+							top: 0 
+							left: 0			
+							width: 50px
+							height: 50px
+							display: block
+
+						.img-nohover
+							//opacity: 1
+							display: block
+							transition:  all 1s
+							z-index: 9
+
+						.img-hover
+							display: none	
+							//opacity: 0.5
+							z-index: 0
+							transition:  all 1s
+						
+
+
+				.facebook
+					float: left
+					margin: 0px 5px 0px 5px
+					display: block
+					padding: 0
+					width: 50px
+					text-align: center
+					//background: url("../img/facebook.png") no-repeat
+					//background-size: 100%
+					
+					i
+						transition: all 0.3s
+						font-size: 30px
+						color: #930900
+						border-radius: 25px
+						background: rgba(138, 138, 138, 0.15)
+						width: 50px
+						height: 50px
+						line-height: 50px
+						&:hover
+							color: #38596F	
+							color: #DE0900					
+							transition: all 0.5s
+							background: #999
+					a
+						width: 50px
+						height: 50px
+						display: block
+						color: #fff	
+						//background: #004A7F
+						text-align: center
+						font-size: 16px
+						padding: 20%
+						border-radius: 8px
+						&:hover
+							//background: #930900		
+						img		
+							position: relative			
+							width: 50px
+							height: 50px
+							display: block
+
+
+				.instagram
+					//background: url("../img/instagram_icon.png") no-repeat
+					//background-size: 100%
+					margin: 0px 5px 0px 5px
+					float: left
+
+					display: block
+					padding: 0
+					width: 50px
+
+
+					i
+						transition: all 0.3s
+						font-size: 30px
+						color: #930900
+						border-radius: 25px
+						background: rgba(138, 138, 138, 0.15)
+						width: 50px
+						height: 50px
+						line-height: 50px
+						&:hover
+							color: #DE0900		
+							background: #999			
+							transition: all 0.5s			
+					a
+						width: 50px
+						height: 50px
+						display: block
+						color: #fff	
+						//background: #bc2e22
+						text-align: center
+						font-size: 16px
+						padding: 20%
+						border-radius: 8px
+						&:hover
+							//background: #930900								
+
+						img		
+							position: relative			
+							width: 50px
+							height: 50px
+							display: block
+
+
+				.youtube
+					//background: url("../img/instagram_icon.png") no-repeat
+					//background-size: 100%
+					margin: 0px 5px 0px 5px
+					float: left
+
+					display: block
+					padding: 0
+					width: 50px
+
+
+					i
+						transition: all 0.3s
+						font-size: 30px
+						color: #930900
+						border-radius: 25px
+						background: rgba(138, 138, 138, 0.15)
+						width: 50px
+						height: 50px
+						line-height: 50px
+						&:hover
+							color: #DE0900		
+							background: #999			
+							transition: all 0.5s			
+					a
+						width: 50px
+						height: 50px
+						display: block
+						color: #fff	
+						//background: #bc2e22
+						text-align: center
+						font-size: 16px
+						padding: 20%
+						border-radius: 8px
+						&:hover
+							//background: #930900								
+
+						img		
+							position: relative			
+							width: 50px
+							height: 50px
+							display: block					
+
+
+
+
+
+
+
+
+				.phone	
+					text-align: center
+					font-size: 18px
+					margin-top: 30px
+					&:after
+						content: ""
+						clear: both
+					i
+						margin-right: 10px
+						padding-top: 2px
+						width: 25px
+						height: 25px
+						border: 2px solid #000
+						border-radius: 30px
+
+
+				.btn
+					display: block
+					border-radius: 8px
+					margin: 30px  auto 0
+					height: 60px
+					width: 80%		
+					background: #bc2e22
+					text-align: center
+					padding-top: 11px
+					font-size: 24px
+					font-family: RobotoRegular
+					color: #fff
+					text-decoration: none
+					&:hover
+						background: #930900
+
+			.studio
+				position: absolute
+				bottom: 50px	
+				left: 50px
+				font-weight: bold
+				color: #000		
+				a
+					color: #08679d	
+
+
+			.conservs
+				position: absolute
+				right: 3%
+				bottom: 10%
+				z-index: 4
+				.ragu
+					float: left
+					padding-top: 30%
+					width: 40%
+				.nerka	
+					float: left
+					width: 50%							
+
+	/*Disable Animation on Mobile Devices*/
+	.animated
+		/*CSS transitions*/
+		-o-transition-property: none !important
+		-moz-transition-property: none !important
+		-ms-transition-property: none !important
+		-webkit-transition-property: none !important
+		transition-property: none !important
+		/*CSS transforms*/
+		-o-transform: none !important
+		-moz-transform: none !important
+		-ms-transform: none !important
+		-webkit-transform: none !important
+		transform: none !important
+		/*CSS animations*/
+		-webkit-animation: none !important
+		-moz-animation: none !important
+		-o-animation: none !important
+		-ms-animation: none !important
+		animation: none !important
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	/**/
+
+	// *
+	// 	border: 1px solid red
+
+	// 	box-sizing: border-box
+
+	.row
+		margin: 0	
+	.fixed.xx
+		background: rgba(255,255,255,.99)	
+		transition: all 0.8s ease 0s
+		color: #000
+		height: 80px
+		min-height: 80px
+		-webkit-box-shadow: 0px 10px 19px 0px rgba(50, 50, 50, 0.75)
+		-moz-box-shadow:    0px 10px 19px 0px rgba(50, 50, 50, 0.75)
+		box-shadow:         0px 10px 19px 0px rgba(50, 50, 50, 0.75)
+
+		.xl
+			margin-top: 80px		
+		.navbar-brand
+			transition: all 0.8s ease 0s
+			position: absolute
+
+			width: auto
+			//height: 150px
+			min-height: 00%
+			max-height: 80px
+			height: 80px
+			left: 5%
+			text-align: center
+			margin: 0 auto
+			img
+				//width: 100%
+				height: 100%	
+		ul
+			margin-top: 0px
+			transition: all 0.8s ease 0s
+		.navbar-nav>li>a
+			color: #000
+
+		&:hover  .navbar-nav>li>a
+			color: #000	
+			
+			&:hover
+				color: #961100
+
+		
+
+	body
+
+
+
+	 .hidden
+	 	display: none
+
+		.clform2
+			position: fixed
+			top: 20%
+			left: 3%
+			font-family: 'Franklin Gothic Demi Cond'
+			letter-spacing: 3px
+			font-style: normal	
+			width: 90%
+			display: block
+			margin: 0 auto
+			//border: 3px solid #f58c59
+			border-radius: 5px	
+			color: #414141
+
+			h4
+				margin-top: 40px
+				text-transform: uppercase
+				text-align: center
+				width: 100%
+				
+				font-size: 25px
+
+			.buyform2
+				position: relative
+				display: block
+				height: 270px
+				width: 90%
+				margin: 0 auto
+				margin-top: 0px
+				box-sizing: border-box
+
+				ul
+
+					list-style-type: none
+					width: 100%
+					li
+						margin-top: 10px
+						width: 100%
+						span
+							box-sizing: border-box
+							padding: 10px 0px
+
+							float: left
+							width: 28%	
+							height: 40px
+							font-size: 20.5px
+
+
+						input
+							padding-left: 10px
+							color: #414141
+							font-size: 25px
+							float:right
+							width: 70%
+							height: 40px
+							right: 0px
+							//border: 3px solid #f58c59
+							border-radius: 5px	
+				.sender
+					font-family: 'Myriad Pro'
+					font-weight: bold
+					letter-spacing: 5px
+					font-style: normal				
+					width: 90%
+					height: 55px
+
+					display: block
+					position:relative
+					border-radius: 10px
+					border: 1px solid black
+					background-color: #dd2121
+					
+					
+					color: #fff
+					font-size: 22.5px
+					text-transform: uppercase
+					margin-top: 20px
+					margin: 20px auto
+					margin-bottom: 0px
+					cursor: pointer
+					&:hover, &:focus
+
+					&:active
+						background-color: #615A56
+
+
+
+		.navbar-default .navbar-nav>li>a
+			color: #000
+			&:hover
+				color: #961100		
+		.navbar
+			transition: all 0.8s ease 0s
+
+			min-height: 80px
+			height: 150px
+			//height: auto
+			position: fixed
+			top: 0 
+			left: 0%
+			margin-left: 0%
+			width: 100%
+			background: rgba(0,0,0,0)
+			z-index: 999999
+			border: none	
+			&:hover 
+				.navbar-brand
+					.l2
+						opacity: 1	
+			.navbar-brand
+				transition: all 0.8s ease 0s
+				position: absolute
+
+				width: auto
+				//height: 150px
+				min-height: 00%
+				max-height: 80px
+				height: 80px
+				left: 45%
+				text-align: center
+				margin: 0 auto
+				img
+					//width: 100%
+					height: 100%				
+
+			.navbar-toggle 
+				z-index: 999999	
+				background: rgba(0,0,0,0.5)
+				position: absolute
+				left: 47.5%
+				bottom: 0%
+				width: 80px
+				height: 40px
+				
+			.navbar-left
+				margin-left: 0%	
+			.navbar-right
+				margin-right: 0%	
+
+
+			.xl
+				margin-top: 150px
+
+			ul
+				//float: left
+				margin-top: 0px
+				color: #fff
+				position: relative
+				margin-left: 10%
+				margin: 0px auto
+				font-family: RobotoMedium, sans-serif
+				font-size: 16px
+				font-weight: bold
+				display: block
+				background: #fff
+
+				li
+
+					text-transform: uppercase
+					line-height: 50px
+					position: relative
+					display: block
+					vertical-align: top
+					padding-left: 3px
+					color: #fff
+					// &:before
+					// 	content: ''
+					// 	position: absolute
+					// 	top: 50%
+					// 	left: 0
+					// 	width: 1px
+					// 	height: 16px
+					// 	margin-top: -8px
+					// 	background: #8F8F8F
+					a
+						color: #fff
+						text-decoration: none
+						&:hover
+							color: #961100		
+		.menu-production
+			margin-top: 90px
+			margin-left: auto
+			margin-right: auto
+			width: 100%
+			padding-bottom: 50px
+			//max-width: 1760px
+			//min-width: 1380px
+			//height: 1701px
+			background: url('../img/slanec768.png') repeat-y
+			background: url('../img/slanec3.png') repeat-y
+			background-size: 100% 100%
+			//background-size: cover
+			//background-position: 50% 50%
+			background-position: 50% 50%
+			&:after, &:before
+				content: ""
+				clear: both	
+
+			.row
+				
+				.title-block
+					text-align: center
+					color: #fff
+					padding-bottom: 50px
+					h1
+						text-transform: uppercase
+						//font-family: 'Lobster', cursive
+						font-size: 30зч
+					
+					h2
+						margin-top: 0
+
+						border-bottom: 1px #fff solid
+						border-top: 1px #fff solid
+						text-transform: uppercase
+						font-family: 'NanumGothic'
+						font-size: 36px			
+
+
+				
+				.product
+					//background: rgba(0,0,0,0.5)
+					width: 100%
+					color: #fff
+					height: auto
+					//padding-left: 100px
+					h4
+						font-size: 30px
+						text-align: center
+						text-transform: uppercase
+					.list
+						float: left
+						width: 40%
+						font-size: 24px
+						font-family: Roboto Regular
+						ul
+							list-style-type: none
+							li
+								line-height: 1.5
+						
+					.card
+
+						margin-top: 0%
+						text-align: center
+						float: left
+						width: 60%
+						border: 1px solid #fff
+						padding: 10px 5px
+						font-size: 18px
+						font-family: Roboto Light
+						ul
+							list-style-type: none
+							li
+								line-height: 1.5
+
+
+				.lm
+					
+					
+					
+
+				.rm
+						
+					margin-top: 10%
+
+
+
+
+
+
+
+		.products
+			margin-top: 90px
+			margin-left: auto
+			margin-right: auto
+			width: 100%
+			min-height: 700px
+			padding-bottom: 200px
+			//max-width: 1760px
+			//min-width: 1380px
+			//height: 1701px
+			//background: url('../img/page-product/board.png') no-repeat
+			
+			//background-size: 100% 100%
+			background-position: 50% 50%
+			&:after, &:before
+				content: ""
+				clear: both	
+
+			.row
+				&:after, &:before
+					content: ""
+					clear: both			
+				.title-block
+					text-align: center
+					color: #fff
+					padding-bottom: 0px
+					padding-top: 50px
+					h1
+						text-transform: uppercase
+						font-family: 'Lobster', cursive
+						font-family: 'DS Eraser Cyr', arial
+						font-size: 30px
+						width: 100%
+					
+					h2
+						margin-top: 0
+
+						border-bottom: 1px #fff solid
+						border-top: 1px #fff solid
+						text-transform: uppercase
+						font-family: 'NanumGothic'
+						font-size: 36px			
+				img
+					width: 100%
+					margin-left: -11%
+					margin-left: -4%
+
+
+
+				
+				.info
+					padding-top: 25%
+					table
+						width: 100%
+						.td-w1
+							background: rgba(255,255,255,0.8)
+
+						.td-w2	
+							background: rgba(255,255,255,0.6)
+							color: #C00
+						td
+							border: 1px solid #fff
+							height: 40px
+							background: rgba(255,255,255,0.3)
+							text-align: center
+							color: #000
+							text-transform: capitalize
+							font-weight: bold
+					p
+						position: absolute
+						bottom: -70%
+						display: block
+						padding-top: 3%
+						height: 120px
+						margin-top: 50px
+						margin-left: -10%
+						//margin-left: -50px	
+						//padding: 10px 20px
+						width: 120%
+						min-width: 330px
+						line-height: 1.5	
+						color: #000
+						font-size: 18px
+						font-family: Roboto Regular
+						background:  rgba(255,255,255,0.8)
+
+
+
+
+						img
+							position: absolute
+							right: 2%
+							top: 50%
+							//margin-top: -30px
+							//margin-left: 320px
+							width: 55px
+			.pr2
+				.info
+					padding-top: 0
+
+				table
+					margin-top: 50px	
+				img	
+					width: 70%
+					margin-left: 15%
+					margin-top: 10%
+
+					margin-left: 30
+					margin-top: 49%	
+
+
+
+
+
+
+
+		.book
+			display: none
+			margin-top: 80px
+			margin-left: auto
+			margin-right: auto
+			width: 100%
+			height: auto
+			padding-bottom: 50px
+			//max-width: 1760px
+			//min-width: 1380px
+			//height: 1701px
+			// background: rgba(255,255,255,0.6)
+			background-size: 100% 100%
+			background-position: 50% 50%
+			&:after, &:before
+				content: ""
+				clear: both	
+
+			h1
+				text-transform: uppercase
+				text-align: center
+				font-family: Lobster
+				font-size: 36px		
+				color: #961100	
+			.book-slider
+				background: url('../img/book.png') no-repeat
+				background-size: 100% 100%
+				width: 100%
+				height: 100vh
+				padding-top: 20px
+
+
+
+		#magazine
+			margin: 0 auto
+			//padding-top: 5%
+			width: 95%
+			height: 300px
+			height: 98%
+			overflow: inherit
+
+			.page
+				
+				opacity: 1
+				background: #d9d9d9 /* Old browsers */
+				background: -moz-linear-gradient(left, #d9d9d9 0%, #d9d9d9 19%, #d9d9d9 19%, #d9d9d9 23%, #f0f0f0 100%) /* FF3.6-15 */
+				background: -webkit-linear-gradient(left, #d9d9d9 0%,#d9d9d9 19%,#d9d9d9 19%,#d9d9d9 23%,#f0f0f0 100%) /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(to right, #d9d9d9 0%,#d9d9d9 19%,#d9d9d9 19%,#d9d9d9 23%,#f0f0f0 100%) /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9d9d9', endColorstr='#f0f0f0',GradientType=1 ) /* IE6-9 */
+
+				// &:before
+				// 	position: absolute
+				// 	top: -30px
+				// 	right: 0px
+				// 	content: ""
+				// 	height: 30px
+				// 	width: 100px
+				// 	border-radius: 100px
+				// 	border: 1px solid red
+				// 	background: red
+				// 	z-index: 9999999
+			div
+				//margin-top: 10px
+
+				
+				//height: 600px
+				width: 150px
+				font-size: 55px
+				opacity: 1
+				//background: rgba(255,255,255,0.5)
+				img
+					margin: 20px auto 20px
+					display: block
+					width: 50%
+				h2
+					margin-top: 0px
+					text-align: center
+					font-size: 40px	
+					font-family: CyrillicOld
+					color: #961100
+				.ingr
+					width: 80%
+					margin: 0 auto
+					span 
+						font-family: RobotoRegular
+						font-size: 24px
+					ul
+						list-style-type: none
+						margin-left: -8px
+						margin-bottom: 0
+						width: 90%
+						display: block
+						font-size: 18px	
+				.process
+					width: 80%
+					margin: 0 auto
+					span 
+
+						font-family: RobotoRegular
+						font-size: 24px
+					p
+						
+						margin-top: 20px
+						width: 100%
+						display: block
+						font-size: 18px	
+
+				.more
+					width: 270px
+					height: 90px
+					background: url("../img/more.png") no-repeat
+					margin: 0 auto		
+					font-size: 18px
+					text-align: center
+					padding-top: 27px
+					color: #8e4c27
+					font-family: RobotoLight
+
+
+		#magazine 
+			.turn-page
+				margin-top: 10px
+				width: 100%
+				height: 500px
+				background-color: green
+
+
+				.partners
+					margin-top: 80px
+					margin-left: auto
+					margin-right: auto
+					width: 100%
+					height: auto
+					padding-bottom: 50px	
+					background: rgba(255,255,255,0.5)	
+					h1
+						text-transform: uppercase
+						color: #961100
+						text-align: center
+						font-family: Lobster
+						font-size: 36px		
+
+
+
+					.block
+						width: 100%
+						margin-top: 50px
+						//height: 200px
+						img
+							//width: 100%
+							//height: 100%
+							padding-left: 0px
+							margin: 0 auto
+							display: block
+							// background: url("../img/p1.png") no-repeat
+							// background-size: 100%
+						
+
+					
+					.prtn
+						margin-top: 20px
+						position: relative
+						width: 14%
+						display: inline-block
+						display: block
+						float: left
+						padding: 0px 20px 
+						height: 70px
+
+
+						.img2
+							position: absolute
+							width: 90%
+							top: 0
+							left: 0
+							display: none
+
+						.img1
+							position: absolute
+							width: 90%	
+							top: 0
+							left: 0
+
+						&:hover .img2
+							display: block	
+						&:hover .img1
+							display: none	
+
+
+
+
+		.partners
+			margin-top: 80px
+			margin-left: auto
+			margin-right: auto
+			width: 100%
+			height: auto
+			padding-bottom: 50px	
+			background: rgba(255,255,255,0.5)	
+			h1
+				text-transform: uppercase
+				color: #961100
+				text-align: center
+				font-family: Lobster
+				font-size: 36px		
+
+
+
+			.block
+				width: 100%
+				margin-top: 50px
+				//height: 200px
+				img
+					//width: 100%
+					//height: 100%
+					padding-left: 0px
+					margin: 0 auto
+					display: block
+					// background: url("../img/p1.png") no-repeat
+					// background-size: 100%
+				
+
+			
+			.prtn
+				margin-top: 20px
+				position: relative
+				width: 11.1111111%
+				display: inline-block
+				display: block
+				float: left
+				padding: 0px 20px 
+				height: 80px
+
+
+				.img2
+					position: absolute
+					width: 90%
+					top: 0
+					left: 0
+					display: none
+
+				.img1
+					position: absolute
+					width: 90%	
+					top: 0
+					left: 0
+
+				&:hover .img2
+					display: block	
+				&:hover .img1
+					display: none	
+
+		.cert
+			margin-top: 80px
+			margin-left: auto
+			margin-right: auto
+			width: 100%
+			height: auto
+			padding-bottom: 50px
+			h1 
+				text-transform: uppercase
+				color: #961100
+				text-align: center
+				font-family: Lobster
+				font-size: 36px	
+
+				
+			.slider111
+				display: block
+				margin: 0 auto
+				width: 80%
+
+				div
+					margin-right: 20px
+					img
+						width: 100%
+						margin-right: 50px
+								
+				.slick-dots
+					display: none
+
+
+		.news
+
+			.block
+				width: 100%
+				margin-right: 100px
+			.slider112
+				display: block
+				margin: 0 auto
+				width: 80%
+
+				div
+					margin-right: 20px
+					img
+						width: 100%
+						margin-right: 50px
+								
+				.slick-dots
+					display: none				
+
+		.footer
+			position: relative
+			width: 100%
+			height: 1160px
+			background: url("../img/bg-footer.png")
+			background-size: cover
+			.container
+				height: 100%
+				position: relative
+			fieldset
+				position: relative
+				margin: 60px auto
+				color: #000
+				background: rgba(255,255,255,0.8)
+				width: 100%
+				//height: 500px
+				
+				border: solid 4px   #961100
+				z-index: 7
+				legend
+					background:  #961100
+					height: 45px
+					width: 50%
+					padding-top: 3%
+					color: #fff
+					font-size: 24px
+					font-family: lobster
+					text-transform: uppercase
+				h1
+					font-family: Roboto Regular
+					text-align: center
+					font-size: 30px
+					padding: 0 20px
+
+				span
+					font-family: Roboto Regular
+					margin-top: 15px
+					text-align: left
+					width: 100%
+					padding: 0 20px
+					display: block	
+					font-size: 18px
+
+
+
+
+
+				.ukr
+					position: relative
+					float: left
+					margin: 0px 5px 0% 7%
+					display: block
+					padding: 10px
+					width: 50px
+					//background: url("../img/facebook.png") no-repeat
+					background-size: 100%
+					transition:  all 1s
+				
+					a
+						position: relative
+						width: 50px
+						height: 50px
+						display: block
+						color: #fff	
+						//background: #004A7F
+						text-align: center
+						font-size: 16px
+						padding: 20%
+						border-radius: 8px
+						transition:  all 1s
+						&:hover
+							transition:  all 1s
+							//background: #E0E0E0
+						&:hover .img-hover
+							display: block
+							opacity: 1
+							//transition:  all .5s
+							//z-index: 11
+							//background: #930900	
+						&:hover .img-nohover
+							display: none
+							//opacity: 0
+							//transition:  all 1s
+							//background: #930900	
+						img		
+							transition:  all 1s
+							position: absolute
+							top: 0 
+							left: 0			
+							width: 50px
+							height: 50px
+							display: block
+
+						.img-nohover
+							//opacity: 1
+							display: block
+							transition:  all 1s
+							z-index: 9
+
+						.img-hover
+							display: none	
+							//opacity: 0.5
+							z-index: 0
+							transition:  all 1s
+						
+
+
+				.facebook
+					float: left
+					margin: 0px 5px 0px 5px
+					display: block
+					padding: 0
+					width: 50px
+					text-align: center
+					//background: url("../img/facebook.png") no-repeat
+					//background-size: 100%
+					
+					i
+						transition: all 0.3s
+						font-size: 30px
+						color: #930900
+						border-radius: 25px
+						background: rgba(138, 138, 138, 0.15)
+						width: 50px
+						height: 50px
+						line-height: 50px
+						&:hover
+							color: #38596F	
+							color: #DE0900					
+							transition: all 0.5s
+							background: #999
+					a
+						width: 50px
+						height: 50px
+						display: block
+						color: #fff	
+						//background: #004A7F
+						text-align: center
+						font-size: 16px
+						padding: 20%
+						border-radius: 8px
+						&:hover
+							//background: #930900		
+						img		
+							position: relative			
+							width: 50px
+							height: 50px
+							display: block
+
+
+				.instagram
+					//background: url("../img/instagram_icon.png") no-repeat
+					//background-size: 100%
+					margin: 0px 5px 0px 5px
+					float: left
+
+					display: block
+					padding: 0
+					width: 50px
+
+
+					i
+						transition: all 0.3s
+						font-size: 30px
+						color: #930900
+						border-radius: 25px
+						background: rgba(138, 138, 138, 0.15)
+						width: 50px
+						height: 50px
+						line-height: 50px
+						&:hover
+							color: #DE0900		
+							background: #999			
+							transition: all 0.5s			
+					a
+						width: 50px
+						height: 50px
+						display: block
+						color: #fff	
+						//background: #bc2e22
+						text-align: center
+						font-size: 16px
+						padding: 20%
+						border-radius: 8px
+						&:hover
+							//background: #930900								
+
+						img		
+							position: relative			
+							width: 50px
+							height: 50px
+							display: block
+
+
+				.youtube
+					//background: url("../img/instagram_icon.png") no-repeat
+					//background-size: 100%
+					margin: 0px 5px 0px 5px
+					float: left
+
+					display: block
+					padding: 0
+					width: 50px
+
+
+					i
+						transition: all 0.3s
+						font-size: 30px
+						color: #930900
+						border-radius: 25px
+						background: rgba(138, 138, 138, 0.15)
+						width: 50px
+						height: 50px
+						line-height: 50px
+						&:hover
+							color: #DE0900		
+							background: #999			
+							transition: all 0.5s			
+					a
+						width: 50px
+						height: 50px
+						display: block
+						color: #fff	
+						//background: #bc2e22
+						text-align: center
+						font-size: 16px
+						padding: 20%
+						border-radius: 8px
+						&:hover
+							//background: #930900								
+
+						img		
+							position: relative			
+							width: 50px
+							height: 50px
+							display: block					
+
+
+
+
+
+
+
+
+				.phone	
+					text-align: center
+					font-size: 22px
+					margin-top: 60px
+					&:after
+						content: ""
+						clear: both
+					i
+						margin-right: 20px
+						padding-top: 5px
+						width: 30px
+						height: 30px
+						border: 2px solid #000
+						border-radius: 30px
+
+
+				.btn
+					display: block
+					border-radius: 8px
+					margin: 60px  auto 0
+					height: 60px
+					width: 80%		
+					background: #bc2e22
+					text-align: center
+					padding-top: 11px
+					font-size: 24px
+					font-family: RobotoRegular
+					color: #fff
+					text-decoration: none
+					&:hover
+						background: #930900
+
+			.studio
+				position: absolute
+				bottom: 50px	
+				left: 50px
+				font-weight: bold
+				color: #000		
+				a
+					color: #08679d	
+
+
+			.conservs
+				position: absolute
+				right: 3%
+				bottom: 10%
+				z-index: 4
+				.ragu
+					float: left
+					padding-top: 30%
+					width: 40%
+				.nerka	
+					float: left
+					width: 50%							
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+

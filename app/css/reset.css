@@ -1,0 +1,37 @@
+/* CSS Document */
+@charset "utf-8";
+/******************************************************
+	FRAMEWORK THE BASIC 8989
+******************************************************/
+
+html,body {
+	height: 100%}
+* {margin:0; padding:0; outline:0; line-height: 1}
+em{font-style: italic;}
+strong{font-weight: bold;}
+table{border-collapse: collapse; border-spacing: 0px; width: 100%;}
+/*td {vertical-align: top;}*/
+ol li{list-style-position:inside; list-style-type:decimal;}
+caption, th{text-align: left;}
+q:before, q:after{content: '';}
+abbr, acronym {font-variant: normal;}
+sup {vertical-align: text-top; }
+sub {vertical-align: text-bottom; }
+label {cursor: pointer;}
+input, textarea, select {font-family: inherit; font-size: inherit; font-weight: inherit;}
+legend {color: #000;}
+label {margin:0 0 0 3px;}
+img {border: 0px;}
+/*li{list-style:none;}*/
+/***  FOR ALL  ***/
+a {text-decoration:none; color:#666666;}
+a:hover {text-decoration:underline;}
+.cb {
+	clear:both !important; 
+	height:0 !important; 
+	margin:0 !important; 
+	padding:0 !important; 
+	overflow:hidden !important; 
+	line-height:0 !important; 
+	font-size:0 !important;
+}
